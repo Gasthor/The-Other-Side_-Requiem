@@ -1790,10 +1790,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1130255294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb549d12ef329c42b2c8365456da1a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 26733ef06fdb40b44a9db8ae1c8edcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   escena: NIVEL6
+  vectorI: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector: {x: 41.25, y: 15.59}
 --- !u!61 &1130255296
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1888,6 +1890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   rb: {fileID: 1252897578}
+  StartingPosition: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
 --- !u!50 &1252897578
 Rigidbody2D:
   serializedVersion: 4
@@ -1994,7 +1997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252897575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.67, y: 9.09, z: 0}
+  m_LocalPosition: {x: 17.58, y: 15.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2027,10 +2030,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1743140769}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb549d12ef329c42b2c8365456da1a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 26733ef06fdb40b44a9db8ae1c8edcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   escena: NIVEL8
+  vectorI: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector: {x: 16.36, y: 1.9}
 --- !u!61 &1743140771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2098,10 +2103,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1820542298}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb549d12ef329c42b2c8365456da1a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 26733ef06fdb40b44a9db8ae1c8edcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   escena: NIVEL4
+  vectorI: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector: {x: 17.81, y: 16.84}
 --- !u!61 &1820542300
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2136,7 +2143,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820542298}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.61, y: 0.51, z: -33.77145}
+  m_LocalPosition: {x: 17.67, y: 0.45, z: -33.77145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

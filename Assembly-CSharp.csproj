@@ -68,7 +68,8 @@
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\Move2.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Scene.cs" />
+    <Compile Include="Assets\Scripts\SceneBefore.cs" />
+    <Compile Include="Assets\Scripts\VectorValue.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/sebas/OneDrive/Documentos/GitHub/The-Other-Side_-Requiem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

@@ -8,10 +8,12 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
     private Animator animator;
+    public VectorValue StartingPosition;
     void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        transform.position = StartingPosition.inicial;
     }
 
     // Update is called once per frame

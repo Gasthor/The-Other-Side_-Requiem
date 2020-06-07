@@ -5497,6 +5497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   rb: {fileID: 1313373257}
+  StartingPosition: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
 --- !u!50 &1313373257
 Rigidbody2D:
   serializedVersion: 4
@@ -5603,7 +5604,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313373254}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.67, y: 9.09, z: 0}
+  m_LocalPosition: {x: 17.01, y: 16.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6166,10 +6167,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1622661140}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb549d12ef329c42b2c8365456da1a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 26733ef06fdb40b44a9db8ae1c8edcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   escena: NIVEL3
+  vectorI: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector: {x: 30.9, y: 9.64}
 --- !u!61 &1622661142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6237,10 +6240,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1945510819}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efb549d12ef329c42b2c8365456da1a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 26733ef06fdb40b44a9db8ae1c8edcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   escena: NIVEL1
+  vectorI: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector: {x: 13.26, y: 0.18}
 --- !u!61 &1945510821
 BoxCollider2D:
   m_ObjectHideFlags: 0
