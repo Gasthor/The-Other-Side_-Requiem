@@ -9,14 +9,12 @@ public class PlayerMovement : MonoBehaviour
     public int currentHealth;
     public HealthSystem healthInicial;
     public HealthBar healthBar;
-    public Rigidbody2D rb;
     Vector2 movement;
     private Animator animator;
     public VectorValue StartingPosition;
     void Start()
     {
         animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
         transform.position = StartingPosition.inicial;
         healthBar.SetMaxHealth(maxHealth);
         currentHealth = healthInicial.healthInicial;
@@ -47,7 +45,22 @@ public class PlayerMovement : MonoBehaviour
    
     void MoveCharacter()
     {
-        rb.MovePosition(rb.position + movement*moveSpeed*Time.fixedDeltaTime);
+        if (movement.x == -1)
+        {
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+        }
+        if (movement.x == 1)
+        {
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+        }
+        if (movement.y == -1)
+        {
+            transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
+        }
+        if (movement.y == 1)
+        {
+            transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
+        }
 
     }
     void TakeDamage(int damage)
