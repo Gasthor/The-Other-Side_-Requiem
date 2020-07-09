@@ -30,6 +30,10 @@ public class Player2Movement : MonoBehaviour
         {
             animator.SetBool("Move", false);
         }
+        if (Input.GetKeyDown("space"))
+        {
+            animator.SetTrigger("Attacking");
+        }
     }
 
     void MoveCharacter()
