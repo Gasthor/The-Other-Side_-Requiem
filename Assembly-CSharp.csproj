@@ -71,7 +71,7 @@
     <Compile Include="Assets\Magic.cs" />
     <Compile Include="Assets\Scripts\Dialogues\Dialog.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enem.cs" />
-    <Compile Include="Assets\Scripts\Enemy\Tronco.cs" />
+    <Compile Include="Assets\Scripts\Enemy\attackEnemy.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\Menu\MenuManager.cs" />
     <Compile Include="Assets\Scripts\Menu\Setting.cs" />
