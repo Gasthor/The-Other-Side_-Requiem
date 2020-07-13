@@ -7,21 +7,21 @@ public class attackEnemy : MonoBehaviour
     //esta clase sirve para cualquier ataque parecido.
     public float speed;
 
-    PlayerMovement pl;
-    GameObject PlayerMovement;
+    Player pl;
+    GameObject Player;
     Rigidbody2D rb2d;
 
     Vector3 target, dir;
 
     void Start()
     {
-        PlayerMovement = GameObject.FindGameObjectWithTag("Player");
+        Player = GameObject.FindGameObjectWithTag("Player");
         rb2d = GetComponent<Rigidbody2D>();
 
 
-        if (PlayerMovement != null)
+        if (Player != null)
         {
-            target = PlayerMovement.transform.position;
+            target = Player.transform.position;
             dir = (target - transform.position).normalized;
         }
     }
@@ -38,9 +38,11 @@ public class attackEnemy : MonoBehaviour
     {
         if (col.transform.tag == "Player" || col.transform.tag == "Player2" || col.transform.tag == "Attack") // ojo con los tag!!!!
         {
-            if (col.transform.tag == "Player" || col.transform.tag == "Player2") col.SendMessage("TakeDamage", 10);
+            if (col.transform.tag == "Player")
+            {
+                col.SendMessage("TakeDamage", 10);
+            }
             Destroy(gameObject);
-
         }
     }
 

@@ -12,12 +12,14 @@ public class Enem : MonoBehaviour {
     public GameObject Objeto;
 
     GameObject player;
+    GameObject player2;
     Vector3 initialPosition;
     Rigidbody2D rb2d;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        player2 = GameObject.FindGameObjectWithTag("Player2");
         initialPosition = transform.position;
         rb2d = GetComponent<Rigidbody2D>();
     }
