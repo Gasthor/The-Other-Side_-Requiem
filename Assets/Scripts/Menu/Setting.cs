@@ -5,10 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Setting : MonoBehaviour
 {
-    public static bool pausa = false;
-
+    public bool pausa = false;
     public GameObject pauseMenu;
-
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
