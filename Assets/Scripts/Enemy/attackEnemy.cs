@@ -6,6 +6,7 @@ public class attackEnemy : MonoBehaviour
 {
     //esta clase sirve para cualquier ataque parecido.
     public float speed;
+    public int damage;
 
     Player pl;
     GameObject Player;
@@ -40,10 +41,14 @@ public class attackEnemy : MonoBehaviour
         {
             if (col.transform.tag == "Player")
             {
-                col.SendMessage("TakeDamage", 10);
+                col.SendMessage("TakeDamage", damage);
+            }else if (col.transform.tag == "Player2")
+            {
+                col.SendMessage("TakeDamage", damage);
             }
             Destroy(gameObject);
         }
+        if (col.transform.tag == "") Destroy(gameObject);/// destruir al tocar colisiones
     }
 
     void OnBecameInvisible()

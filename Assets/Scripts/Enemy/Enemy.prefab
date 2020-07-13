@@ -181,8 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5452e1510a9dc0748896f3991518fba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRadio: 4
-  attackRadio: 2
+  visionRadio: 5
+  attackRadio: 4
   speed: 3
   attackSpeed: 0.000001
   homePosition: {fileID: 0}

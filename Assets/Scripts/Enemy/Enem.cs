@@ -27,6 +27,8 @@ public class Enem : MonoBehaviour {
     void Update()
     {
         Vector3 target = initialPosition;
+        Vector3 target2 = initialPosition;
+        //
         if (player != null)
         {
             RaycastHit2D hit = Physics2D.Raycast(
@@ -68,6 +70,49 @@ public class Enem : MonoBehaviour {
             }
             Debug.DrawLine(transform.position, target, Color.green);// debug
         }
+        /*
+        if(player2 != null)
+        {
+            RaycastHit2D hit2 = Physics2D.Raycast(
+                transform.position,
+                player.transform.position - transform.position,
+                visionRadio,
+                1 << LayerMask.NameToLayer("Default"));
+
+
+            Vector3 forward2 = transform.TransformDirection(player2.transform.position - transform.position); // debug??
+            Debug.DrawRay(transform.position, forward2, Color.red);// debug
+
+            if (hit2.collider != null)
+            {
+                if (hit2.collider.tag == "Player2")
+                {
+                    target2 = player.transform.position;
+                }
+            }
+
+            float distance = Vector3.Distance(target2, transform.position);
+            Vector3 dir = (target2 - transform.position).normalized;
+
+            if (target2 != initialPosition && distance < attackRadio)
+            {
+                //animacion de ataque xd
+                if (!attacking) StartCoroutine(Attack(attackSpeed));
+            }
+            else
+            {
+                //transform.position = Vector3.MoveTowards(transform.position, target.transform.position, moveSpeed * Time.deltaTime);
+                rb2d.MovePosition(transform.position + dir * speed * Time.deltaTime);
+                // animacion de persecucion xd
+            }
+
+            if (target2 == initialPosition && distance < 0.02f)
+            {
+                transform.position = initialPosition;
+            }
+            Debug.DrawLine(transform.position, target2, Color.green);// debug
+        }
+        */
     }
 
     IEnumerator Attack(float seconds)
