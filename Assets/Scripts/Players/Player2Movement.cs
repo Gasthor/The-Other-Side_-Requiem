@@ -5,6 +5,16 @@ using UnityEngine;
 public class Player2Movement : MonoBehaviour
 {
     public float moveSpeed = 4f;
+    //
+    public Transform firepoint;
+    public GameObject bulletPrefab;
+    public float bulletForce = 20f;
+    //
+    public int maxHealth = 100;
+    public int currentHealth;
+    public HealthSystem healthInicial;
+    public HealthBar healthBar;
+    //
     Vector2 movement;
     private Animator animator;
     public VectorValue StartingPosition;
@@ -12,6 +22,11 @@ public class Player2Movement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         transform.position = StartingPosition.inicial;
+        //
+        healthBar.SetMaxHealth(maxHealth);
+        currentHealth = healthInicial.healthInicial;
+        healthBar.SetHealth(currentHealth);
+        //
     }
 
     // Update is called once per frame
@@ -30,9 +45,13 @@ public class Player2Movement : MonoBehaviour
         {
             animator.SetBool("Move", false);
         }
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(",") && (movement.x!=0 || movement.y!=0))
         {
-            animator.SetTrigger("Attacking");
+            Attack();
+        }
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            TakeDamage(20);
         }
     }
 
@@ -55,5 +74,39 @@ public class Player2Movement : MonoBehaviour
             transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
         }
 
+    }
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthInicial.healthInicial = currentHealth;
+        healthBar.SetHealth(currentHealth);
+    }
+    void Attack()
+    {
+        animator.SetTrigger("Attacking");
+        Vector2 vec = Vector2.zero;
+        animator.SetTrigger("Attacking");
+        GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        if (movement.x == -1)
+        {
+            vec.x = -1;
+            rb.velocity = vec * bulletForce;
+        }
+        if (movement.x == 1)
+        {
+            vec.x = 1;
+            rb.velocity = vec * bulletForce;
+        }
+        if (movement.y == -1)
+        {
+            vec.y = -1;
+            rb.velocity = vec * bulletForce;
+        }
+        if (movement.y == 1)
+        {
+            vec.y = 1;
+            rb.velocity = vec * bulletForce;
+        }
     }
 }

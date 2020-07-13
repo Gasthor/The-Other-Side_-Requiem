@@ -7,8 +7,10 @@ public class SceneBefore : MonoBehaviour
 {
     // Start is called before the first frame update
     public string escena;
-    public VectorValue vectorI;
-    public Vector2 vector;
+    public VectorValue vectorP1;
+    public VectorValue vectorP2;
+    public Vector2 vector1;
+    public Vector2 vector2;
     void Start()
     {
         
@@ -21,7 +23,8 @@ public class SceneBefore : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            vectorI.inicial = vector;
+            vectorP1.inicial = vector1;
+            vectorP2.inicial = vector2;
             SceneManager.LoadScene(escena, LoadSceneMode.Single);
         }
     }
