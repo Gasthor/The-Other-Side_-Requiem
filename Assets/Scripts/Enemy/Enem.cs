@@ -11,6 +11,13 @@ public class Enem : MonoBehaviour {
     public Transform homePosition;
     public GameObject Objeto;
 
+    
+    public int health;
+    public HealthSystem current;
+
+
+
+
     GameObject player;
     GameObject player2;
     Vector3 initialPosition;
@@ -18,14 +25,28 @@ public class Enem : MonoBehaviour {
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-        player2 = GameObject.FindGameObjectWithTag("Player2");
-        initialPosition = transform.position;
-        rb2d = GetComponent<Rigidbody2D>();
+        health = current.healthInicial;
+
+        if (current.healthInicial > 0)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+            player2 = GameObject.FindGameObjectWithTag("Player2");
+            initialPosition = transform.position;
+            rb2d = GetComponent<Rigidbody2D>();
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Update()
     {
+        if (current.healthInicial <= 0)
+        {
+            Destroy(gameObject);
+        }
+
         Vector3 target = initialPosition;
         Vector3 target2 = initialPosition;
         //
@@ -133,5 +154,11 @@ public class Enem : MonoBehaviour {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, visionRadio);
         Gizmos.DrawWireSphere(transform.position, attackRadio);
+    }
+    void TakeDamage(int damage)
+    {
+        current.healthInicial -= damage;
+        health = current.healthInicial;
+        // mostrar vida
     }
 }

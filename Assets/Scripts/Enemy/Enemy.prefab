@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2374840474662228483}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: 0.26514357, y: -0.4315157}
+  m_Offset: {x: 0.5773926, y: 0.3131168}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8156141, y: 0.34445572}
+  m_Size: {x: 0.9474106, y: 1.3212428}
   m_EdgeRadius: 0
 --- !u!50 &2025341534153572173
 Rigidbody2D:
@@ -187,3 +187,5 @@ MonoBehaviour:
   attackSpeed: 0.000001
   homePosition: {fileID: 0}
   Objeto: {fileID: 7846411825480398923, guid: dca69dd0ee5d0684f82036143fb57a02, type: 3}
+  health: 0
+  current: {fileID: 11400000, guid: 3e44b657589d4a647aa77ce2b679132d, type: 2}

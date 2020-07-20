@@ -37,18 +37,20 @@ public class attackEnemy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.transform.tag == "Player" || col.transform.tag == "Player2" || col.transform.tag == "Attack") // ojo con los tag!!!!
+        if (col.transform.tag == "Player" || col.transform.tag == "Attack") // ojo con los tag!!!!
         {
             if (col.transform.tag == "Player")
-            {
-                col.SendMessage("TakeDamage", damage);
-            }else if (col.transform.tag == "Player2")
             {
                 col.SendMessage("TakeDamage", damage);
             }
             Destroy(gameObject);
         }
-        if (col.transform.tag == "") Destroy(gameObject);/// destruir al tocar colisiones
+        if (!col.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+        
+        
     }
 
     void OnBecameInvisible()
