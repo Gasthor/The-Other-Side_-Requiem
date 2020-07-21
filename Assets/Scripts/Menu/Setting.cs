@@ -36,6 +36,7 @@ public class Setting : MonoBehaviour
     }
     public void Inicio(string scene)
     {
+        Resume();
         SceneManager.LoadScene(scene);
     }
 }
