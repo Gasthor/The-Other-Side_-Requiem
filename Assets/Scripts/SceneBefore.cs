@@ -21,7 +21,7 @@ public class SceneBefore : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player")||collision.CompareTag("Player2"))
         {
             vectorP1.inicial = vector1;
             vectorP2.inicial = vector2;

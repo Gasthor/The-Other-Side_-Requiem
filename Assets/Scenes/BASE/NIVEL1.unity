@@ -5487,7 +5487,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1257090205
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2800714112761874305, guid: ac4ce16203c99ec40b7bf15d21a4efaa,
     type: 3}
@@ -5676,10 +5676,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escena: NIVEL2
-  vector1: {fileID: 0}
-  vector2: {fileID: 0}
-  vectorP1: {x: 0, y: 0}
-  vectorP2: {x: 0, y: 0}
+  vectorP1: {fileID: 11400000, guid: 2c840518a513bda49b2de718da0ded7d, type: 2}
+  vectorP2: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector1: {x: 5.454428, y: 9.648216}
+  vector2: {x: 7.41, y: 9.363783}
 --- !u!61 &899292010
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5857,6 +5857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87b4a97124ddcec49b35e1990fdb4049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pausa: 0
   pauseMenu: {fileID: 1089406855}
 --- !u!114 &1111819056
 MonoBehaviour:
@@ -6345,7 +6346,7 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -6400,12 +6401,12 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 759
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 427.00003
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -6430,12 +6431,27 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_Pivot.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 0
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.037470724
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.037470724
+      objectReference: {fileID: 0}
+    - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.037470724
       objectReference: {fileID: 0}
     - target: {fileID: 6124448917171921505, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -6467,6 +6483,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1798941545}
+    - target: {fileID: 8500895501772614872, guid: 6f218de3aaceac94486bc5b818a966ba,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f218de3aaceac94486bc5b818a966ba, type: 3}
 --- !u!1 &1734538681
@@ -6820,10 +6841,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   escena: NIVEL0
-  vector1: {fileID: 0}
-  vector2: {fileID: 0}
-  vectorP1: {x: 0, y: 0}
-  vectorP2: {x: 0, y: 0}
+  vectorP1: {fileID: 11400000, guid: 2c840518a513bda49b2de718da0ded7d, type: 2}
+  vectorP2: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector1: {x: -1.05, y: -3.99}
+  vector2: {x: 1.05, y: -3.99}
 --- !u!61 &2121301388
 BoxCollider2D:
   m_ObjectHideFlags: 0
