@@ -376,8 +376,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -126}
-  m_SizeDelta: {x: 619.8274, y: 100}
+  m_AnchoredPosition: {x: -84, y: -200}
+  m_SizeDelta: {x: 722.2449, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &553606889
 MonoBehaviour:
@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb899392e65fb349aa024c65a696d97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dBox: {fileID: 553606887}
+  dbox: {fileID: 553606887}
   dText: {fileID: 778140974}
   dialogueActive: 0
   dialogLines:
@@ -507,8 +507,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3, y: 6.5}
-  m_SizeDelta: {x: 573.74414, y: 66.94403}
+  m_AnchoredPosition: {x: 17.8, y: 6.5}
+  m_SizeDelta: {x: 636.4176, y: 66.94403}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &778140974
 MonoBehaviour:
@@ -535,7 +535,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -3602,7 +3602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: 
-  dialogLines:
+  dialogueLines:
   - '*(Se ve muy feliz)
 
     *Guau Guau.'
@@ -3619,18 +3619,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006757736, y: -0.27706432}
+  m_Offset: {x: 0.025227547, y: -0.41866565}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 3, y: 2.3125}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4057312, y: 1.4188404}
+  m_Size: {x: 3.4127712, y: 1.7759204}
   m_EdgeRadius: 0
 --- !u!61 &1235063450
 BoxCollider2D:
@@ -3645,18 +3645,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.004927635, y: -0.039422274}
+  m_Offset: {x: -0.0110833645, y: -0.3909278}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 3, y: 2.3125}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8952656, y: 1.1621289}
+  m_Size: {x: 3.099318, y: 1.4441695}
   m_EdgeRadius: 0
 --- !u!212 &1235063451
 SpriteRenderer:
@@ -3694,10 +3694,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1257090205
-  m_SortingLayer: 2
+  m_SortingLayerID: 531323397
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2757298984738394219, guid: 31d08ba5c603d994cb3b7513989c97c2,
+  m_Sprite: {fileID: 7699966434511131253, guid: a83e08d227cb2c545b92bfaecf73374f,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3717,8 +3717,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1235063447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.57, y: -1.2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -8.414, y: -1.164, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -6391,8 +6391,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e51df2bebe8c4e46bb22f40a395ff94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: 
-  dialogLines:
+  dialogue: Hi
+  dialogueLines:
   - "*(llora desconsoladamente)\n*Han pasado d\xEDas y mi hijo no vuelve (continua
     llorando)\n*Sin su padre, el lo era todo para mi (sigue llorando), ahora ustedes
     son lo unico que me queda"
@@ -6415,18 +6415,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006757736, y: 0.18245721}
+  m_Offset: {x: 0.006757736, y: 0.2217021}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1, y: 1.9375}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4057312, y: 1.6350856}
+  m_Size: {x: 1.4057312, y: 1.7135754}
   m_EdgeRadius: 0
 --- !u!61 &1378300638
 BoxCollider2D:
@@ -6441,18 +6441,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.004927635, y: -0.039422274}
+  m_Offset: {x: -0.023857623, y: 0.20095181}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1, y: 1.9375}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8952656, y: 1.1621289}
+  m_Size: {x: 1.0656359, y: 1.6428771}
   m_EdgeRadius: 0
 --- !u!212 &1378300639
 SpriteRenderer:
@@ -6490,10 +6490,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1257090205
-  m_SortingLayer: 2
+  m_SortingLayerID: 531323397
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2757298984738394219, guid: 31d08ba5c603d994cb3b7513989c97c2,
+  m_Sprite: {fileID: -2569768013166921449, guid: 49acfbc1011aafa4ca598d2d5a30903a,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6513,8 +6513,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378300635}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.54, y: -0.16, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -8.425, y: 0.02, z: 0}
+  m_LocalScale: {x: 1.2296033, y: 1.1862212, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -9634,7 +9634,7 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -9743,12 +9743,12 @@ PrefabInstance:
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.89
+      value: -1.58
       objectReference: {fileID: 0}
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.73
+      value: -3.08
       objectReference: {fileID: 0}
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}

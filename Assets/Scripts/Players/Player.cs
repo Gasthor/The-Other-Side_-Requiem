@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
 
+
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 4f;
@@ -19,6 +20,9 @@ public class Player : MonoBehaviour
     Vector2 movement;
     private Animator animator;
     public VectorValue StartingPosition;
+
+    public bool canMove; //NUEVO
+    public Rigidbody2D rb2D;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -28,11 +32,21 @@ public class Player : MonoBehaviour
         currentHealth = healthInicial.healthInicial;
         healthBar.SetHealth(currentHealth);
         //
+
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //----------------------------------------
+        if (!canMove) //NUEVO
+        {
+            rb2D.velocity = Vector3.zero;
+            return;
+        }
+        
+        //-------------------------------------
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         if (movement != Vector2.zero)

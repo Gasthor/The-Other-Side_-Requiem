@@ -155,8 +155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3, y: 6.5}
-  m_SizeDelta: {x: 573.74414, y: 66.94403}
+  m_AnchoredPosition: {x: 6.3, y: 3.6}
+  m_SizeDelta: {x: 667.7435, y: 72.81897}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &187055380
 MonoBehaviour:
@@ -178,12 +178,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 18
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -6220,7 +6220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb899392e65fb349aa024c65a696d97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dBox: {fileID: 902144262}
+  dbox: {fileID: 902144262}
   dText: {fileID: 187055380}
   dialogueActive: 0
   dialogLines:
@@ -6390,8 +6390,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -126}
-  m_SizeDelta: {x: 619.8274, y: 100}
+  m_AnchoredPosition: {x: 381.88, y: 358}
+  m_SizeDelta: {x: 763.7637, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &902144264
 MonoBehaviour:
@@ -8360,18 +8360,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0066156387, y: -0.036672235}
+  m_Offset: {x: 0.007019043, y: 0.029826403}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 1.1875, y: 1.9375}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.94589806, y: 1.2351396}
+  m_Size: {x: 1.3003998, y: 2.05896}
   m_EdgeRadius: 0
 --- !u!212 &1207320523
 SpriteRenderer:
@@ -8409,10 +8409,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1257090205
-  m_SortingLayer: 2
+  m_SortingLayerID: 531323397
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2757298984738394219, guid: 31d08ba5c603d994cb3b7513989c97c2,
+  m_Sprite: {fileID: -4557307861747338638, guid: 6702e0369e0d8684994eca3ba9e59d72,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8613,7 +8613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: Hi
-  dialogLines:
+  dialogueLines:
   - '*Hola, no me conocen y nose si lo haran ,pero adelante se encuentra el peligro
 
     *Peligro
@@ -8633,7 +8633,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.044187546, y: -0.048457265}
+  m_Offset: {x: -0.044187546, y: 0.033350468}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8644,7 +8644,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3366737, y: 1.7514579}
+  m_Size: {x: 1.7184448, y: 2.3513827}
   m_EdgeRadius: 0
 --- !u!1001 &1401421999
 PrefabInstance:

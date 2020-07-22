@@ -5,31 +5,30 @@ using UnityEngine.UI;
 
 public class dialogHolder : MonoBehaviour
 {
-
     public string dialogue;
     private DialogueManager dMan;
-
     [TextArea(3,10)]
-    public string[] dialogLines;
-
-
-    // Start is called before the first frame update
+    public string[] dialogueLines;
     void Start()
     {
-        dMan = FindObjectOfType<DialogueManager>();    
+        dMan = FindObjectOfType<DialogueManager>();
     }
 
-    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
     void OnTriggerStay2D(Collider2D other)
     {
-        if(other.gameObject.name == "P1" || other.gameObject.name == "P2")
+        if(other.gameObject.name == "P1")
         {
             if (Input.GetKeyUp(KeyCode.E))
             {
                 //dMan.ShowBox(dialogue);
                 if (!dMan.dialogueActive)
                 {
-                    dMan.dialogLines = dialogLines;
+                    dMan.dialogLines = dialogueLines;
                     dMan.currentLine = 0;
                     dMan.ShowDialogue();
                 }

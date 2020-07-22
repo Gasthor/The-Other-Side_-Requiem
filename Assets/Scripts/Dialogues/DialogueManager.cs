@@ -5,49 +5,52 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dBox;
+    public GameObject dbox;
     public Text dText;
 
     public bool dialogueActive;
-
+    [TextArea(3, 10)]
     public string[] dialogLines;
     public int currentLine;
-    // Start is called before the first frame update
+
+    private Player thePlayer; //NUEVO
+
     void Start()
     {
-        
+        thePlayer = FindObjectOfType<Player>();//NUEVO
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if(dialogueActive && Input.GetKeyDown(KeyCode.E))
+        if (dialogueActive && Input.GetKeyDown(KeyCode.E))
         {
-            /*dBox.SetActive(false);
-            dialogueActive = false;*/
-
+            //dbox.SetActive(false);
+            //dialogueActive = false;
             currentLine++;
         }
         if(currentLine >= dialogLines.Length)
         {
-            dBox.SetActive(false);
+            dbox.SetActive(false);
             dialogueActive = false;
 
             currentLine = 0;
+            thePlayer.canMove = true;//NUEVO
         }
 
         dText.text = dialogLines[currentLine];
+        
     }
+
     public void ShowBox(string dialogue)
     {
         dialogueActive = true;
-        dBox.SetActive(true);
+        dbox.SetActive(true);
         dText.text = dialogue;
     }
 
     public void ShowDialogue()
     {
         dialogueActive = true;
-        dBox.SetActive(true);
+        dbox.SetActive(true);
+        thePlayer.canMove = false;//NUEVO
     }
 }
