@@ -473,6 +473,12 @@ MonoBehaviour:
   - HEY
   - HEY
   currentLine: 0
+--- !u!50 &737610436 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3989530561471181903, guid: d0877947c6c5664409bfeb93e5f66697,
+    type: 3}
+  m_PrefabInstance: {fileID: 3989530563461749502}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &778140972
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,7 +3625,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.025227547, y: -0.41866565}
+  m_Offset: {x: 0.1289295, y: -0.41866565}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3630,7 +3636,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.4127712, y: 1.7759204}
+  m_Size: {x: 4.478697, y: 1.7759204}
   m_EdgeRadius: 0
 --- !u!61 &1235063450
 BoxCollider2D:
@@ -6415,7 +6421,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.006757736, y: 0.2217021}
+  m_Offset: {x: 0.14423767, y: 0.2217021}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6426,7 +6432,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4057312, y: 1.7135754}
+  m_Size: {x: 2.159464, y: 1.7135754}
   m_EdgeRadius: 0
 --- !u!61 &1378300638
 BoxCollider2D:
@@ -9743,12 +9749,12 @@ PrefabInstance:
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.58
+      value: -5.09
       objectReference: {fileID: 0}
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.08
+      value: 2.78
       objectReference: {fileID: 0}
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
@@ -9806,6 +9812,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 825552191127480346, guid: d33b47b30d0dd7846b29d9872c8e4080,
         type: 3}
+    - target: {fileID: 3989530561471181904, guid: d0877947c6c5664409bfeb93e5f66697,
+        type: 3}
+      propertyPath: rb2D
+      value: 
+      objectReference: {fileID: 737610436}
     - target: {fileID: 3989530561471181907, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_Name

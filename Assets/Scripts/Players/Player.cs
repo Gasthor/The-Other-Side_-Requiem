@@ -64,10 +64,10 @@ public class Player : MonoBehaviour
         {
             Attack();
         }
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            TakeDamage(20);
-        }
+        //if (Input.GetKeyDown(KeyCode.G))
+        //{
+        //    TakeDamage(20);
+        //}
     }
 
     void MoveCharacter()

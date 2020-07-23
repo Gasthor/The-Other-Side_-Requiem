@@ -18,6 +18,7 @@ public class Player2Movement : MonoBehaviour
     Vector2 movement;
     private Animator animator;
     public VectorValue StartingPosition;
+    //
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -32,6 +33,7 @@ public class Player2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //
         movement.x = Input.GetAxisRaw("Horizontal2");
         movement.y = Input.GetAxisRaw("Vertical2");
         if (movement != Vector2.zero)
@@ -49,10 +51,10 @@ public class Player2Movement : MonoBehaviour
         {
             Attack();
         }
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            TakeDamage(20);
-        }
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //    TakeDamage(20);
+        //}
     }
 
     void MoveCharacter()

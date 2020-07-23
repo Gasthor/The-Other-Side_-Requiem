@@ -5,8 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    public VectorValue p1;
+    public VectorValue p2;
+
     public void loadScene(string scene)
     {
+        p1.inicial.x = -5;
+        p1.inicial.y = 2.7f;
+        p2.inicial.x = 6.8f;
+        p2.inicial.y = 2.7f;
         SceneManager.LoadScene(scene);
     }
 
