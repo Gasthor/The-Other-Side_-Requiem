@@ -3725,6 +3725,12 @@ PrefabInstance:
       propertyPath: rb2D
       value: 
       objectReference: {fileID: 1665831662}
+    - target: {fileID: 3989530561471181904, guid: d0877947c6c5664409bfeb93e5f66697,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 825552191127480346, guid: d33b47b30d0dd7846b29d9872c8e4080,
+        type: 3}
     - target: {fileID: 3989530561471181907, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_Name

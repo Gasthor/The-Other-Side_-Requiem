@@ -8184,6 +8184,17 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 683333147}
+    - target: {fileID: 3989530561471181904, guid: d0877947c6c5664409bfeb93e5f66697,
+        type: 3}
+      propertyPath: rb2D
+      value: 
+      objectReference: {fileID: 806044025}
+    - target: {fileID: 3989530561471181904, guid: d0877947c6c5664409bfeb93e5f66697,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 825552191127480346, guid: d33b47b30d0dd7846b29d9872c8e4080,
+        type: 3}
     - target: {fileID: 3989530561471181907, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_Name
@@ -8191,6 +8202,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0877947c6c5664409bfeb93e5f66697, type: 3}
+--- !u!50 &806044025 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3989530561471181903, guid: d0877947c6c5664409bfeb93e5f66697,
+    type: 3}
+  m_PrefabInstance: {fileID: 806044024}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1010006721
 GameObject:
   m_ObjectHideFlags: 0
