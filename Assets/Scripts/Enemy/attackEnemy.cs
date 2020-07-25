@@ -8,23 +8,31 @@ public class attackEnemy : MonoBehaviour
     public float speed;
     public int damage;
 
-    Player pl;
-    GameObject Player;
+    private GameObject Player;
+    private GameObject Player2;
+    public Indicador indicador;
     Rigidbody2D rb2d;
 
     Vector3 target, dir;
 
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
+        Player = GameObject.Find("P1");
+        Player2 = GameObject.Find("P2");
         rb2d = GetComponent<Rigidbody2D>();
+        
 
-
-        if (Player != null)
+        if (indicador.indicador == 1)
         {
             target = Player.transform.position;
             dir = (target - transform.position).normalized;
         }
+        if(indicador.indicador == 2)
+        {
+            target = Player2.transform.position;
+            dir = (target - transform.position).normalized;
+        }
+
     }
 
     void FixedUpdate()
@@ -57,4 +65,5 @@ public class attackEnemy : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
 }

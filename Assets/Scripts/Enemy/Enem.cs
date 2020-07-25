@@ -19,7 +19,6 @@ public class Enem : MonoBehaviour {
 
 
     GameObject player;
-    GameObject player2;
     Vector3 initialPosition;
     Rigidbody2D rb2d;
 
@@ -30,7 +29,6 @@ public class Enem : MonoBehaviour {
         if (current.healthInicial > 0)
         {
             player = GameObject.FindGameObjectWithTag("Player");
-            player2 = GameObject.FindGameObjectWithTag("Player2");
             initialPosition = transform.position;
             rb2d = GetComponent<Rigidbody2D>();
         }
@@ -48,7 +46,6 @@ public class Enem : MonoBehaviour {
         }
 
         Vector3 target = initialPosition;
-        Vector3 target2 = initialPosition;
         //
         if (player != null)
         {
@@ -90,6 +87,7 @@ public class Enem : MonoBehaviour {
                 transform.position = initialPosition;
             }
             Debug.DrawLine(transform.position, target, Color.green);// debug
+            
         }
         /*
         if(player2 != null)

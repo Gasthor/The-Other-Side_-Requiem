@@ -7740,8 +7740,8 @@ MonoBehaviour:
   escena: NIVEL1
   vectorP1: {fileID: 11400000, guid: 2c840518a513bda49b2de718da0ded7d, type: 2}
   vectorP2: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
-  vector1: {x: -6.71, y: 2.44}
-  vector2: {x: -8.54, y: 2.24}
+  vector1: {x: -6.71, y: 2}
+  vector2: {x: -8.54, y: 2}
 --- !u!1 &1879580749
 GameObject:
   m_ObjectHideFlags: 0

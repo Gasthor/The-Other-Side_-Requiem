@@ -99,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   damage: 1
+  indicador: {fileID: 11400000, guid: dfc60cb5f9f4fac47908a96e6257db7c, type: 2}
 --- !u!50 &853164455486238310
 Rigidbody2D:
   serializedVersion: 4
