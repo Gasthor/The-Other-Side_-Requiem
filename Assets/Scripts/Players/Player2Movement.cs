@@ -15,12 +15,15 @@ public class Player2Movement : MonoBehaviour
     public HealthSystem healthInicial;
     public HealthBar healthBar;
     //
+    public bool canMove;
+    public Rigidbody2D rb2D;
     Vector2 movement;
     private Animator animator;
     public VectorValue StartingPosition;
     //
     void Start()
     {
+        canMove = true;
         animator = GetComponent<Animator>();
         transform.position = StartingPosition.inicial;
         //
@@ -33,6 +36,11 @@ public class Player2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!canMove) //NUEVO
+        {
+            rb2D.velocity = Vector3.zero;
+            return;
+        }
         //
         movement.x = Input.GetAxisRaw("Horizontal2");
         movement.y = Input.GetAxisRaw("Vertical2");

@@ -16,7 +16,6 @@ public class MenuManager : MonoBehaviour
         p2.inicial.y = 2.7f;
         SceneManager.LoadScene(scene);
     }
-
     public void SalirJuego()
     {
         Application.Quit();

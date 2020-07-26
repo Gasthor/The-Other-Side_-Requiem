@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
     Vector2 movement;
     private Animator animator;
     public VectorValue StartingPosition;
-
     public bool canMove; //NUEVO
     public Rigidbody2D rb2D;
     void Start()
