@@ -21,7 +21,7 @@ public class dialogHolder : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D other)
     {
-        if(other.gameObject.name == "P1")
+        if(other.gameObject.name == "P1" || other.gameObject.name == "P2")
         {
             if (Input.GetKeyUp(KeyCode.E))
             {
@@ -34,5 +34,6 @@ public class dialogHolder : MonoBehaviour
                 }
             }
         }
+        
     }
 }

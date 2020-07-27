@@ -14,10 +14,12 @@ public class DialogueManager : MonoBehaviour
     public int currentLine;
 
     private Player thePlayer; //NUEVO
+    private Player2Movement thePlayer2;
 
     void Start()
     {
         thePlayer = FindObjectOfType<Player>();//NUEVO
+        thePlayer2 = FindObjectOfType<Player2Movement>();
     }
     void Update()
     {
@@ -34,6 +36,7 @@ public class DialogueManager : MonoBehaviour
 
             currentLine = 0;
             thePlayer.canMove = true;//NUEVO
+            thePlayer2.canMove = true;
         }
 
         dText.text = dialogLines[currentLine];
@@ -51,6 +54,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueActive = true;
         dbox.SetActive(true);
-        thePlayer.canMove = false;//NUEVO
+        thePlayer.canMove = false;
+        thePlayer2.canMove = false;
     }
 }
