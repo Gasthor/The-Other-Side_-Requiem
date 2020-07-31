@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 1180133899}
   - component: {fileID: 1180133898}
   m_Layer: 0
-  m_Name: Coliciones
+  m_Name: Colisiones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
