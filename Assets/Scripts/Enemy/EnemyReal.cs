@@ -20,6 +20,7 @@ public class EnemyReal : MonoBehaviour
 
     public int health;
     public HealthSystem current;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -30,16 +31,19 @@ public class EnemyReal : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        Vector3 target1 = homePos.position;
         if (current.healthInicial <= 0)
         {
             Destroy(gameObject);
         }
-        if (Vector3.Distance(player.transform.position,transform.position)<= Vector3.Distance(player2.transform.position, transform.position))
+
+        if (Vector3.Distance(player.transform.position, transform.position) <= Vector3.Distance(player2.transform.position, transform.position))
         {
             target = player.transform;
             indicador.indicador = 1;
@@ -49,18 +53,41 @@ public class EnemyReal : MonoBehaviour
             target = player2.transform;
             indicador.indicador = 2;
         }
-        if(Vector3.Distance(target.position,transform.position) <= MaxRange && Vector3.Distance(target.position,transform.position) >= minRange)
+        //Animacion
+        float distance = Vector3.Distance(homePos.position, transform.position);
+        Vector3 dir = (target.position - transform.position).normalized;
+        if (homePos.position != target1 && distance < minRange)
+        {
+            anim.SetFloat("moveX", dir.x);
+            anim.SetFloat("moveY", dir.y);
+            anim.Play("EnemyWalk", -1, 0);
+        }
+        else
+        {
+            anim.speed = 1;
+            anim.SetFloat("moveX", dir.x);
+            anim.SetFloat("moveY", dir.y);
+            anim.SetBool("moving", true);
+        }
+        if (target1 == homePos.position && distance < 0.02f)
+        {
+            anim.SetBool("moving", false);
+        }
+        //
+        if (Vector3.Distance(target.position, transform.position) <= MaxRange && Vector3.Distance(target.position, transform.position) >= minRange)
         {
             FollowPlayer();
+
         }
-        else if(Vector3.Distance(target.position,transform.position)>= MaxRange)
+        else if (Vector3.Distance(target.position, transform.position) >= MaxRange)
         {
             GoHome();
         }
-        if(Vector3.Distance(target.position,transform.position)<= minRange)
+        if (Vector3.Distance(target.position, transform.position) <= minRange)
         {
             if (!attacking) StartCoroutine(Attack(attackSpeed));
         }
+
 
     }
     public void FollowPlayer()
@@ -86,7 +113,6 @@ public class EnemyReal : MonoBehaviour
     IEnumerator Attack(float seconds)
     {
         attacking = true;
-
         if (Objeto != null)
         {
             Instantiate(Objeto, transform.position, transform.rotation);

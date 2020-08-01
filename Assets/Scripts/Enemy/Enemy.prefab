@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 2025341534153572172}
   - component: {fileID: 2025341534153572173}
   - component: {fileID: 2025341534153572174}
-  - component: {fileID: 2374840474662228483}
+  - component: {fileID: -7291511622334972502}
+  - component: {fileID: 2596637580438763903}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -169,7 +170,7 @@ CompositeCollider2D:
       - {x: -0.1426048, y: -0.6037435}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
---- !u!114 &2374840474662228483
+--- !u!114 &-7291511622334972502
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -178,14 +179,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 2025341534153572175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5452e1510a9dc0748896f3991518fba7, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ecf0746b50bd5b4d97d3ca9edd613e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRadio: 5
-  attackRadio: 4
-  speed: 3
-  attackSpeed: 0.000001
-  homePosition: {fileID: 0}
-  Objeto: {fileID: 7846411825480398923, guid: dca69dd0ee5d0684f82036143fb57a02, type: 3}
+  player: {fileID: 0}
+  player2: {fileID: 0}
+  homePos: {fileID: 0}
+  Objeto: {fileID: 0}
+  indicador: {fileID: 0}
+  attackSpeed: 0
+  speed: 0
+  MaxRange: 0
+  minRange: 0
   health: 0
-  current: {fileID: 11400000, guid: 3e44b657589d4a647aa77ce2b679132d, type: 2}
+  current: {fileID: 0}
+--- !u!95 &2596637580438763903
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025341534153572175}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9ab97a8a717f5d047b4c54a40f4a704b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
