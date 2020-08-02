@@ -120,4 +120,16 @@ public class EnemyReal : MonoBehaviour
         }
         attacking = false;
     }
+    void OnGUI()
+    {
+        Vector2 pos = Camera.main.WorldToScreenPoint(transform.position);
+        int health = current.healthInicial;
+        GUI.Box(
+            new Rect(
+                pos.x - 20,
+                Screen.height - pos.y - 50,
+                35,
+                20), "" + health
+            );
+    }
 }
