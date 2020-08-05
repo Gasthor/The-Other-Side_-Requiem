@@ -61,6 +61,7 @@ public class EnemyReal : MonoBehaviour
             anim.SetFloat("moveX", dir.x);
             anim.SetFloat("moveY", dir.y);
             anim.Play("EnemyWalk", -1, 0);
+            anim.SetBool("moving", false);
         }
         else
         {
