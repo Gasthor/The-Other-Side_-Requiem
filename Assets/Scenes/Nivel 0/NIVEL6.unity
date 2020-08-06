@@ -5746,6 +5746,11 @@ PrefabInstance:
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[3].y
       value: -1.2829273
       objectReference: {fileID: 0}
+    - target: {fileID: 8478547752830039221, guid: f7ae8c4fd79881347805b4331d64a700,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8478547752830039223, guid: f7ae8c4fd79881347805b4331d64a700,
         type: 3}
       propertyPath: m_Enabled
@@ -5982,6 +5987,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[3].y
       value: -1.2829273
+      objectReference: {fileID: 0}
+    - target: {fileID: 8478547752830039221, guid: f7ae8c4fd79881347805b4331d64a700,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8478547752830039223, guid: f7ae8c4fd79881347805b4331d64a700,
         type: 3}
@@ -8951,7 +8961,6 @@ GameObject:
   - component: {fileID: 782865447}
   - component: {fileID: 782865446}
   - component: {fileID: 782865445}
-  - component: {fileID: 782865444}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -8959,18 +8968,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &782865444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782865443}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 729d736a5ebf22440ac45aa50b7c2277, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &782865445
 AudioListener:
   m_ObjectHideFlags: 0
