@@ -13,6 +13,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 490bf4f99598c4f4fb27980cbf6bde66,
         type: 2}
+    - target: {fileID: 2809879692615620221, guid: dca69dd0ee5d0684f82036143fb57a02,
+        type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2809879692615620221, guid: dca69dd0ee5d0684f82036143fb57a02,
+        type: 3}
+      propertyPath: damage
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4474268272134218736, guid: dca69dd0ee5d0684f82036143fb57a02,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -71,7 +81,7 @@ PrefabInstance:
     - target: {fileID: 7846411825480398923, guid: dca69dd0ee5d0684f82036143fb57a02,
         type: 3}
       propertyPath: m_Name
-      value: proTroncoPlayer2
+      value: proTronco2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dca69dd0ee5d0684f82036143fb57a02, type: 3}

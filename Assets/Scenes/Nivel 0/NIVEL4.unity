@@ -158,22 +158,22 @@ PrefabInstance:
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: attackSpeed
-      value: 1
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: speed
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: MaxRange
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: minRange
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
@@ -586,22 +586,22 @@ PrefabInstance:
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: attackSpeed
-      value: 1
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: speed
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: MaxRange
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: minRange
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
@@ -9728,22 +9728,22 @@ PrefabInstance:
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: attackSpeed
-      value: 1
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: speed
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: MaxRange
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: minRange
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2025341534153572172, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}

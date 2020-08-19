@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 853164455486238310}
   - component: {fileID: -5150639635278644648}
   m_Layer: 0
-  m_Name: objects_111
+  m_Name: proTronco1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,8 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d090d9131e387b42aaa72a6954ba43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  damage: 1
+  speed: 4
+  damage: 7
   indicador: {fileID: 11400000, guid: dfc60cb5f9f4fac47908a96e6257db7c, type: 2}
 --- !u!50 &853164455486238310
 Rigidbody2D:
