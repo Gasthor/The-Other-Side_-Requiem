@@ -9,9 +9,12 @@ public class Setting : MonoBehaviour
     public GameObject pauseMenu;
     public Player P1;
     public Player2Movement P2;
+    private AudioSource fondo;
 
     private void Start()
     {
+        fondo = GetComponent<AudioSource>();
+        fondo.Play();
         P1 = FindObjectOfType<Player>();
         P2 = FindObjectOfType<Player2Movement>();
     }
@@ -32,6 +35,7 @@ public class Setting : MonoBehaviour
 
     public void Pause()
     {
+        fondo.Stop();
         P1.canMove = false;
         P2.canMove = false;
         pauseMenu.SetActive(true);
@@ -40,6 +44,7 @@ public class Setting : MonoBehaviour
     }
     public void Resume()
     {
+        fondo.Play();
         P1.canMove = true;
         P2.canMove = true;
         pauseMenu.SetActive(false);
