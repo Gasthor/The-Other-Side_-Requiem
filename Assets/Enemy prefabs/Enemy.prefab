@@ -187,11 +187,11 @@ MonoBehaviour:
   homePos: {fileID: 0}
   Objeto: {fileID: 0}
   indicador: {fileID: 0}
-  attackSpeed: 0
-  speed: 0
-  MaxRange: 0
-  minRange: 0
-  health: 0
+  attackSpeed: 0.65
+  speed: 1.5
+  MaxRange: 6
+  minRange: 3
+  health: 100
   current: {fileID: 0}
 --- !u!95 &2596637580438763903
 Animator:

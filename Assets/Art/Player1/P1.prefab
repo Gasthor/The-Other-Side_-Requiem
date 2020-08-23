@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   firepoint: {fileID: 3989530562520308768}
-  bulletPrefab: {fileID: 2266409264457228973, guid: 4802e36b0b123614692d0e957e468078,
+  bulletPrefab: {fileID: 825552191127480346, guid: d33b47b30d0dd7846b29d9872c8e4080,
     type: 3}
   bulletForce: 20
   maxHealth: 100
@@ -177,7 +177,7 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   StartingPosition: {fileID: 11400000, guid: 2c840518a513bda49b2de718da0ded7d, type: 2}
   canMove: 0
-  rb2D: {fileID: 0}
+  rb2D: {fileID: 3989530561471181903}
 --- !u!61 &7887830959018287087
 BoxCollider2D:
   m_ObjectHideFlags: 0

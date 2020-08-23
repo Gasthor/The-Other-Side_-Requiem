@@ -205,6 +205,8 @@ MonoBehaviour:
   currentHealth: 0
   healthInicial: {fileID: 11400000, guid: cdef836f76abfb84b8f221659e7211b5, type: 2}
   healthBar: {fileID: 0}
+  canMove: 0
+  rb2D: {fileID: 7074077412292821604}
   StartingPosition: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
 --- !u!61 &-8534725319304882276
 BoxCollider2D:
