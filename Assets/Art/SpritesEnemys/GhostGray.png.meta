@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: c49ebb3e9d9d92947a38f5baea0b3437
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2336769820979617628
+    second: GhostGray_0
+  - first:
+      213: 6322780458279937087
+    second: GhostGray_1
+  - first:
+      213: -126122575300998002
+    second: GhostGray_2
+  - first:
+      213: 3775033534726114229
+    second: GhostGray_3
+  - first:
+      213: 682561256499198993
+    second: GhostGray_4
+  - first:
+      213: 8783436097316002521
+    second: GhostGray_5
+  - first:
+      213: -2681251036072331383
+    second: GhostGray_6
+  - first:
+      213: -8024875893229600704
+    second: GhostGray_7
+  - first:
+      213: 9034771399958250267
+    second: GhostGray_8
+  - first:
+      213: -7865008792749462075
+    second: GhostGray_9
+  - first:
+      213: 1296017849405104360
+    second: GhostGray_10
+  - first:
+      213: 2198145034285546100
+    second: GhostGray_11
+  - first:
+      213: 3597490689560131990
+    second: GhostGray_12
+  - first:
+      213: 7524504927818244344
+    second: GhostGray_13
+  - first:
+      213: 2855201093203960706
+    second: GhostGray_14
+  - first:
+      213: 6077902607916022164
+    second: GhostGray_15
+  - first:
+      213: -5217423606739452002
+    second: GhostGray_16
+  - first:
+      213: 6258763186015157350
+    second: GhostGray_17
+  - first:
+      213: -5842643228497229637
+    second: GhostGray_18
+  - first:
+      213: 5023419102990847982
+    second: GhostGray_19
+  - first:
+      213: 1486904313077245190
+    second: GhostGray_20
+  - first:
+      213: -6205506174607223478
+    second: GhostGray_21
+  - first:
+      213: 5372739933861141108
+    second: GhostGray_22
+  - first:
+      213: -8987161254526445212
+    second: GhostGray_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostGray_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 652
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd75d75cfdd6020800000000000000
+      internalID: 2336769820979617628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 655
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34ae88c3570fb750800000000000000
+      internalID: 6322780458279937087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 658
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cc60d9f2cef3ef0800000000000000
+      internalID: -126122575300998002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 460
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987b24973684acad0800000000000000
+      internalID: -2681251036072331383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 463
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040447984e9e1a090800000000000000
+      internalID: -8024875893229600704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_8
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 466
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13ce5158b4f16d70800000000000000
+      internalID: 9034771399958250267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 274
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699b10ac8badce130800000000000000
+      internalID: 3597490689560131990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_13
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 271
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f068458d596c6860800000000000000
+      internalID: 7524504927818244344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 268
+        width: 66
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283aaba4446bf9720800000000000000
+      internalID: 2855201093203960706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 76
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c41870f2caeea0800000000000000
+      internalID: -5842643228497229637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_19
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 79
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef4ea71f05c6b540800000000000000
+      internalID: 5023419102990847982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostGray_20
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 82
+        width: 81
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60527f3489b82a410800000000000000
+      internalID: 1486904313077245190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

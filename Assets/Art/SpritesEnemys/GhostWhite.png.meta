@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: ded0566adfd0a9b44a97b28190e0a281
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8563386301722077099
+    second: GhostWhite_0
+  - first:
+      213: -2787113158331583169
+    second: GhostWhite_1
+  - first:
+      213: -7728711948818592853
+    second: GhostWhite_2
+  - first:
+      213: -8480873237491657565
+    second: GhostWhite_3
+  - first:
+      213: -3182072630058024460
+    second: GhostWhite_4
+  - first:
+      213: 6951310762460721088
+    second: GhostWhite_5
+  - first:
+      213: -4903999154459851398
+    second: GhostWhite_6
+  - first:
+      213: -691843107056262676
+    second: GhostWhite_7
+  - first:
+      213: -569502056394786080
+    second: GhostWhite_8
+  - first:
+      213: -3381542383299702780
+    second: GhostWhite_9
+  - first:
+      213: 8727130708886158528
+    second: GhostWhite_10
+  - first:
+      213: 5033707431283474037
+    second: GhostWhite_11
+  - first:
+      213: 638514952417705466
+    second: GhostWhite_12
+  - first:
+      213: 590050811206268463
+    second: GhostWhite_13
+  - first:
+      213: 6386546988538569499
+    second: GhostWhite_14
+  - first:
+      213: -7344757045426615540
+    second: GhostWhite_15
+  - first:
+      213: -4918154240627375012
+    second: GhostWhite_16
+  - first:
+      213: 7913762126964922329
+    second: GhostWhite_17
+  - first:
+      213: -4103995979968872335
+    second: GhostWhite_18
+  - first:
+      213: 2052275602845962033
+    second: GhostWhite_19
+  - first:
+      213: 3212625482045693907
+    second: GhostWhite_20
+  - first:
+      213: 5280583035783444235
+    second: GhostWhite_21
+  - first:
+      213: -3297692371886626720
+    second: GhostWhite_22
+  - first:
+      213: 3841492455887489039
+    second: GhostWhite_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostWhite_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 661
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7279c787247d670800000000000000
+      internalID: 8563386301722077099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 664
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3534d8695f2259d0800000000000000
+      internalID: -2787113158331583169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 667
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc9575e691eb490800000000000000
+      internalID: -7728711948818592853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 469
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ca9360ce71fbb0800000000000000
+      internalID: -4903999154459851398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 472
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1eb931c541666f0800000000000000
+      internalID: -691843107056262676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 475
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eafbb5a5e8b818f0800000000000000
+      internalID: -569502056394786080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 283
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf1aa57f57cd800800000000000000
+      internalID: 638514952417705466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_13
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 280
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2671692618403800800000000000000
+      internalID: 590050811206268463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 277
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13ae2116a291a850800000000000000
+      internalID: 6386546988538569499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 85
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170035e666dab07c0800000000000000
+      internalID: -4103995979968872335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_19
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 88
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f85d099c52b7c10800000000000000
+      internalID: 2052275602845962033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostWhite_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 91
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df93bdcad9859c20800000000000000
+      internalID: 3212625482045693907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
