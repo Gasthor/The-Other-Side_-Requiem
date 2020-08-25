@@ -39,6 +39,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (currentHealth <= 0)
+        {
+            DieAndRespawn();
+        }
         //----------------------------------------
         if (!canMove) //NUEVO
         {
@@ -68,6 +72,16 @@ public class Player : MonoBehaviour
         //{
         //    TakeDamage(20);
         //}
+    }
+    void DieAndRespawn()
+    {
+
+        gameObject.SetActive(false);
+        gameObject.SetActive(true);
+        currentHealth = maxHealth;
+        transform.position = StartingPosition.inicial;
+
+
     }
 
     void MoveCharacter()
