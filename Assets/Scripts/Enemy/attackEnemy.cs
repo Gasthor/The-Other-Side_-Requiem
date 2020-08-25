@@ -47,7 +47,7 @@ public class attackEnemy : MonoBehaviour
     {
         if (col.transform.tag == "Player" || col.transform.tag == "Attack") // ojo con los tag!!!!
         {
-            if (col.transform.tag == "Player")
+            if (col.transform.tag == "Player" )
             {
                 col.SendMessage("TakeDamage", damage);
             }

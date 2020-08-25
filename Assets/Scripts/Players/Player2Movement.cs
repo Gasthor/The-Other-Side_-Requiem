@@ -36,6 +36,7 @@ public class Player2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (!canMove) //NUEVO
         {
             rb2D.velocity = Vector3.zero;
