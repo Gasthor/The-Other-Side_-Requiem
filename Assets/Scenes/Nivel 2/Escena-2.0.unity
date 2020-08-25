@@ -3237,6 +3237,12 @@ PrefabInstance:
       propertyPath: homePos
       value: 
       objectReference: {fileID: 2034018149}
+    - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 7846411825480398923, guid: 0ebdcc38fc01a9f48bd6ae33fbc8ff2d,
+        type: 3}
     - target: {fileID: 2025341534153572172, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: m_Offset.x
@@ -8008,6 +8014,12 @@ PrefabInstance:
       propertyPath: homePos
       value: 
       objectReference: {fileID: 1882014778}
+    - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 5691028897307595401, guid: d02448c3d6edc6d4ab80a3c51495dbfc,
+        type: 3}
     - target: {fileID: 2025341534153572172, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: m_Offset.x
@@ -8145,6 +8157,12 @@ PrefabInstance:
       propertyPath: homePos
       value: 
       objectReference: {fileID: 800966617}
+    - target: {fileID: -7291511622334972502, guid: 3d073953e4a4e25409c5dac9e386a7fa,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 467254607855895717, guid: 24a03c39587b6944f8fac06b217e5778,
+        type: 3}
     - target: {fileID: 2025341534153572172, guid: 3d073953e4a4e25409c5dac9e386a7fa,
         type: 3}
       propertyPath: m_Offset.x
@@ -9855,6 +9873,12 @@ PrefabInstance:
       propertyPath: homePos
       value: 
       objectReference: {fileID: 87612721}
+    - target: {fileID: 8322080263556888145, guid: f7ae8c4fd79881347805b4331d64a700,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 420943115526407317, guid: 24cf09e062b3c4a46b0362d9af70b11e,
+        type: 3}
     - target: {fileID: 8478547752830039177, guid: f7ae8c4fd79881347805b4331d64a700,
         type: 3}
       propertyPath: m_SortingOrder
