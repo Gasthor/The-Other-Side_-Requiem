@@ -133,5 +133,17 @@ public class Player : MonoBehaviour
             rb.velocity = vec * bulletForce;
         }
     }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "P2" && !animator.GetBool("Alive"))
+        {
+            if (Input.GetKeyDown(KeyCode.E)) {
+                currentHealth = 100;
+                healthInicial.healthInicial = currentHealth;
+                healthBar.SetHealth(currentHealth);
+            } 
+        }
+    }
 }
 
