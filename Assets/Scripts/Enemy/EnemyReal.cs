@@ -45,13 +45,30 @@ public class EnemyReal : MonoBehaviour
 
         if (Vector3.Distance(player.transform.position, transform.position) <= Vector3.Distance(player2.transform.position, transform.position))
         {
-            target = player.transform;
-            indicador.indicador = 1;
+            //int health1 = player.GetComponent<Player>().currentHealth;
+            if (player.GetComponent<Player>().healthInicial.healthInicial > 0)
+            {
+                target = player.transform;
+                indicador.indicador = 1;
+            }
+            else
+            {
+                target = player2.transform;
+                indicador.indicador = 2;
+            }
         }
         else
         {
-            target = player2.transform;
-            indicador.indicador = 2;
+            if (player2.GetComponent<Player2Movement>().healthInicial.healthInicial > 0)
+            {
+                target = player2.transform;
+                indicador.indicador = 2;
+            }
+            else
+            {
+                target = player.transform;
+                indicador.indicador = 1;
+            }
         }
         //Animacion
         float distance = Vector3.Distance(homePos.position, transform.position);

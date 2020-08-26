@@ -58,7 +58,7 @@ public class Player2Movement : MonoBehaviour
             {
                 animator.SetBool("Move", false);
             }
-            if (Input.GetKeyDown(",") && (movement.x != 0 || movement.y != 0))
+            if (Input.GetKeyDown(","))
             {
                 Attack();
             }
@@ -105,22 +105,22 @@ public class Player2Movement : MonoBehaviour
         animator.SetTrigger("Attacking");
         GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        if (movement.x == -1)
+        if (animator.GetFloat("MoveX") == -1)
         {
             vec.x = -1;
             rb.velocity = vec * bulletForce;
         }
-        if (movement.x == 1)
+        if (animator.GetFloat("MoveX") == 1)
         {
             vec.x = 1;
             rb.velocity = vec * bulletForce;
         }
-        if (movement.y == -1)
+        if (animator.GetFloat("MoveY") == -1)
         {
             vec.y = -1;
             rb.velocity = vec * bulletForce;
         }
-        if (movement.y == 1)
+        if (animator.GetFloat("MoveY") == 1)
         {
             vec.y = 1;
             rb.velocity = vec * bulletForce;

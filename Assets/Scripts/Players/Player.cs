@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
+    {
         //----------------------------------------
         if (!canMove) //NUEVO
         {
@@ -47,7 +47,8 @@ public class Player : MonoBehaviour
         }
 
         //-------------------------------------
-        if (healthInicial.healthInicial > 0){
+        if (healthInicial.healthInicial > 0)
+        {
             animator.SetBool("Alive", true);
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
@@ -62,11 +63,12 @@ public class Player : MonoBehaviour
             {
                 animator.SetBool("Move", false);
             }
-            if (Input.GetKeyDown(KeyCode.Space) && (movement.x != 0 || movement.y != 0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 Attack();
-            } 
-        } else
+            }
+        }
+        else
         {
             animator.SetBool("Alive", false);
         }
@@ -75,7 +77,7 @@ public class Player : MonoBehaviour
         //    TakeDamage(20);
         //}
     }
-    
+
 
     void MoveCharacter()
     {
@@ -107,27 +109,29 @@ public class Player : MonoBehaviour
     {
         Vector2 vec = Vector2.zero;
         animator.SetTrigger("Attacking");
-        GameObject bullet = Instantiate(bulletPrefab,firepoint.position,firepoint.rotation);
+        GameObject bullet = Instantiate(bulletPrefab, firepoint.position, firepoint.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        if (movement.x == -1)
+
+        if (animator.GetFloat("MoveX") == -1)
         {
             vec.x = -1;
             rb.velocity = vec * bulletForce;
         }
-        if (movement.x == 1)
+        if (animator.GetFloat("MoveX") == 1)
         {
             vec.x = 1;
             rb.velocity = vec * bulletForce;
         }
-        if (movement.y == -1)
+        if (animator.GetFloat("MoveY") == -1)
         {
             vec.y = -1;
             rb.velocity = vec * bulletForce;
         }
-        if (movement.y == 1)
+        if (animator.GetFloat("MoveY") == 1)
         {
             vec.y = 1;
             rb.velocity = vec * bulletForce;
         }
     }
 }
+
