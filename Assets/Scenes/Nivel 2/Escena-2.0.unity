@@ -7885,9 +7885,60 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 710420484}
+  - {fileID: 663057636}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &663057635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 663057636}
+  - component: {fileID: 663057637}
+  m_Layer: 0
+  m_Name: Death
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &663057636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663057635}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 518836370}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &663057637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663057635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998ee230b5c845c48b437754be93fe1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escena: Escena-2.0
+  healthBarP1: {fileID: 11400000, guid: d4fed3734860ca343a0fb7c868415754, type: 2}
+  healthBarP2: {fileID: 11400000, guid: cdef836f76abfb84b8f221659e7211b5, type: 2}
+  vectorP1: {fileID: 11400000, guid: 2c840518a513bda49b2de718da0ded7d, type: 2}
+  vectorP2: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector1: {x: -2.4, y: -4.7}
+  vector2: {x: -7.3, y: -4.7}
 --- !u!114 &665380707 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3240383954745621377, guid: 6f218de3aaceac94486bc5b818a966ba,
@@ -9947,7 +9998,7 @@ PrefabInstance:
     - target: {fileID: 8478547752830039222, guid: f7ae8c4fd79881347805b4331d64a700,
         type: 3}
       propertyPath: m_BodyType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f7ae8c4fd79881347805b4331d64a700, type: 3}

@@ -10,7 +10,12 @@ PrefabInstance:
     - target: {fileID: 3468371101139665411, guid: d809e36ac574e2145b6876e8f219e787,
         type: 3}
       propertyPath: m_Name
-      value: Tronco_p
+      value: Tronco_p 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6273831305544782894, guid: d809e36ac574e2145b6876e8f219e787,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7120727099930548664, guid: d809e36ac574e2145b6876e8f219e787,
         type: 3}

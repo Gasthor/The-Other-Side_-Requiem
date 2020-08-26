@@ -36,29 +36,35 @@ public class Player2Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         if (!canMove) //NUEVO
         {
             rb2D.velocity = Vector3.zero;
             return;
         }
         //
-        movement.x = Input.GetAxisRaw("Horizontal2");
-        movement.y = Input.GetAxisRaw("Vertical2");
-        if (movement != Vector2.zero)
+        if (healthInicial.healthInicial > 0){
+            animator.SetBool("Alive", true);
+            movement.x = Input.GetAxisRaw("Horizontal2");
+            movement.y = Input.GetAxisRaw("Vertical2");
+            if (movement != Vector2.zero)
+            {
+                MoveCharacter();
+                animator.SetFloat("MoveX", movement.x);
+                animator.SetFloat("MoveY", movement.y);
+                animator.SetBool("Move", true);
+            }
+            else
+            {
+                animator.SetBool("Move", false);
+            }
+            if (Input.GetKeyDown(",") && (movement.x != 0 || movement.y != 0))
+            {
+                Attack();
+            }
+        } else
         {
-            MoveCharacter();
-            animator.SetFloat("MoveX", movement.x);
-            animator.SetFloat("MoveY", movement.y);
-            animator.SetBool("Move", true);
-        }
-        else
-        {
-            animator.SetBool("Move", false);
-        }
-        if (Input.GetKeyDown(",") && (movement.x!=0 || movement.y!=0))
-        {
-            Attack();
+            animator.SetBool("Alive", false);
         }
         //if (Input.GetKeyDown(KeyCode.F))
         //{
