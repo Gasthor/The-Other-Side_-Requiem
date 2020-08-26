@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 903645974}
+    - target: {fileID: 3454333613598712486, guid: 51a9372bae39b4c429ace7fde2bc7f10,
+        type: 3}
+      propertyPath: currentHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5698132821126035693, guid: 51a9372bae39b4c429ace7fde2bc7f10,
         type: 3}
       propertyPath: m_Name
@@ -5180,7 +5185,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1204649463}
     - target: {fileID: 8500895501772614872, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_RenderMode
@@ -5272,6 +5277,11 @@ PrefabInstance:
       propertyPath: rb2D
       value: 
       objectReference: {fileID: 2082963730}
+    - target: {fileID: 3989530561471181904, guid: d0877947c6c5664409bfeb93e5f66697,
+        type: 3}
+      propertyPath: currentHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3989530561471181907, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_Name
