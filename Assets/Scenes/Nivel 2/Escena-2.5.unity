@@ -127,6 +127,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8826395910763974687}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &210174597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 210174598}
+  - component: {fileID: 210174600}
+  - component: {fileID: 210174599}
+  m_Layer: 0
+  m_Name: Scene 3.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210174598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210174597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1792678473}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &210174599
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210174597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.18609822, y: 5.19672}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.72449, y: 1.8387036}
+  m_EdgeRadius: 0
+--- !u!114 &210174600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210174597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26733ef06fdb40b44a9db8ae1c8edcdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escena: INF 0
+  vectorP1: {fileID: 11400000, guid: 2c840518a513bda49b2de718da0ded7d, type: 2}
+  vectorP2: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
+  vector1: {x: -1, y: -5.4}
+  vector2: {x: 1.2, y: -5.4}
 --- !u!1 &231942826
 GameObject:
   m_ObjectHideFlags: 0
@@ -9250,6 +9325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 612445012}
+  - {fileID: 210174598}
   - {fileID: 122273258}
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -10558,6 +10634,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1792678473}
     m_Modifications:
+    - target: {fileID: 8826395910750973428, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
+        type: 3}
+      propertyPath: escena
+      value: Escena-2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826395910750973428, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
+        type: 3}
+      propertyPath: vector1.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826395910750973428, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
+        type: 3}
+      propertyPath: vector1.y
+      value: -5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826395910750973428, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
+        type: 3}
+      propertyPath: vector2.y
+      value: -5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826395910750973428, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
+        type: 3}
+      propertyPath: vector2.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8826395910750973429, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10596,7 +10697,7 @@ PrefabInstance:
     - target: {fileID: 8826395910750973429, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8826395910750973429, guid: 997d45fa8f35ffd4c9960355b0e92dc5,
         type: 3}

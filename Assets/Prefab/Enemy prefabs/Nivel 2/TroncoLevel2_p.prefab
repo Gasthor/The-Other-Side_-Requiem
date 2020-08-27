@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3468371101139665411, guid: d809e36ac574e2145b6876e8f219e787,
         type: 3}
       propertyPath: m_Name
-      value: Tronco_p
+      value: TroncoLevel2_p
       objectReference: {fileID: 0}
     - target: {fileID: 7120727099930548664, guid: d809e36ac574e2145b6876e8f219e787,
         type: 3}

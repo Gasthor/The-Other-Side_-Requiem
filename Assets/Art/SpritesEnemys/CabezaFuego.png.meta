@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: dd80183fc1bc6134d877ee385de97155
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2131318390518157221
+    second: CabezaFuego_0
+  - first:
+      213: 197081527296601356
+    second: CabezaFuego_1
+  - first:
+      213: 5903421884641640462
+    second: CabezaFuego_2
+  - first:
+      213: 7272488250001058206
+    second: CabezaFuego_3
+  - first:
+      213: -892532669723287846
+    second: CabezaFuego_4
+  - first:
+      213: 4640183266592832156
+    second: CabezaFuego_5
+  - first:
+      213: 3163177741803908183
+    second: CabezaFuego_6
+  - first:
+      213: -5529997726262685053
+    second: CabezaFuego_7
+  - first:
+      213: 966073668686783743
+    second: CabezaFuego_8
+  - first:
+      213: 6340609342307834056
+    second: CabezaFuego_9
+  - first:
+      213: 4972408316439471938
+    second: CabezaFuego_10
+  - first:
+      213: 5659224747355203568
+    second: CabezaFuego_11
+  - first:
+      213: -7207470979212299936
+    second: CabezaFuego_12
+  - first:
+      213: -1086925937443018013
+    second: CabezaFuego_13
+  - first:
+      213: 8275646672886040536
+    second: CabezaFuego_14
+  - first:
+      213: 5506717493123999972
+    second: CabezaFuego_15
+  - first:
+      213: 3688568060031381235
+    second: CabezaFuego_16
+  - first:
+      213: -3407373151100737352
+    second: CabezaFuego_17
+  - first:
+      213: -8024826481776825205
+    second: CabezaFuego_18
+  - first:
+      213: -7661325289130706958
+    second: CabezaFuego_19
+  - first:
+      213: -5145723375762466232
+    second: CabezaFuego_20
+  - first:
+      213: 335561333590196682
+    second: CabezaFuego_21
+  - first:
+      213: 2764607598130364128
+    second: CabezaFuego_22
+  - first:
+      213: -1428219149402485326
+    second: CabezaFuego_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CabezaFuego_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 605
+        width: 45
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d2e4ada9c2cb200800000000000000
+      internalID: 197081527296601356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CabezaFuego_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 413
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382156dfd508143b0800000000000000
+      internalID: -5529997726262685053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CabezaFuego_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 218
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d704008dc009d270800000000000000
+      internalID: 8275646672886040536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CabezaFuego_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 29
+        width: 45
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b5a0bd318da590800000000000000
+      internalID: -7661325289130706958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
