@@ -42,7 +42,7 @@ public class Setting : MonoBehaviour
         {
             fondo.Pause();
         }
-        
+
         P1.canMove = false;
         P2.canMove = false;
         pauseMenu.SetActive(true);
