@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -7908969359240637594}
   - component: {fileID: -9068169663236953719}
   m_Layer: 0
-  m_Name: Blue_Knight_p
+  m_Name: Blue_Knight_p 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,4 +136,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   damage: 7
-  indicador: {fileID: 0}
+  indicador: {fileID: 11400000, guid: 064b29217a9ec7c428aaa97c5762067e, type: 2}
