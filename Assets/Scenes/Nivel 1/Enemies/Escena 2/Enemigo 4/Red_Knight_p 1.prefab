@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -8027788815826626955}
   - component: {fileID: 2974616383732004278}
   m_Layer: 0
-  m_Name: Red_Knight_p
+  m_Name: Red_Knight_p 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   damage: 7
-  indicador: {fileID: 0}
+  indicador: {fileID: 11400000, guid: 3c562cb5eaefa7c419885c0396ac980d, type: 2}
 --- !u!58 &2974616383732004278
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6859545445735116031}
   - component: {fileID: 8446757987478876635}
   m_Layer: 0
-  m_Name: Reptilian_p
+  m_Name: Reptilian_p 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,4 +136,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   damage: 7
-  indicador: {fileID: 0}
+  indicador: {fileID: 11400000, guid: 267121fc5da80df469fe38e3c6741ec8, type: 2}
