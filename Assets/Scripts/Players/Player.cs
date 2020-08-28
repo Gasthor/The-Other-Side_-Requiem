@@ -105,6 +105,16 @@ public class Player : MonoBehaviour
         healthInicial.healthInicial = currentHealth;
         healthBar.SetHealth(currentHealth);
     }
+    void Health(int health)
+    {
+        currentHealth += health;
+        if (currentHealth > 100)
+        {
+            currentHealth = 100;
+        }
+        healthInicial.healthInicial = currentHealth;
+        healthBar.SetHealth(currentHealth);
+    }
     void Attack()
     {
         Vector2 vec = Vector2.zero;

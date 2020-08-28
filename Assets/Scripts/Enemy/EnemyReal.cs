@@ -10,6 +10,7 @@ public class EnemyReal : MonoBehaviour
 
     public Transform homePos;
     public GameObject Objeto;
+    public GameObject corazon;
     public Indicador indicador;
     bool attacking;
     public float attackSpeed;
@@ -37,9 +38,11 @@ public class EnemyReal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Vector3 target1 = homePos.position;
         if (current.healthInicial <= 0)
         {
+            Heart();
             Destroy(gameObject);
         }
 
@@ -115,6 +118,10 @@ public class EnemyReal : MonoBehaviour
     public void GoHome()
     {
         transform.position = Vector3.MoveTowards(transform.position, homePos.position, speed * Time.deltaTime);
+    }
+    public void Heart()
+    {
+        Instantiate(corazon, transform.position, transform.rotation);
     }
     void OnDrawGizmosSelected()
     {

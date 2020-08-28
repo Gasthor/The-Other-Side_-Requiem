@@ -98,6 +98,16 @@ public class Player2Movement : MonoBehaviour
         healthInicial.healthInicial = currentHealth;
         healthBar.SetHealth(currentHealth);
     }
+    void Health(int health)
+    {
+        currentHealth += health;
+        if (currentHealth > 100)
+        {
+            currentHealth = 100;
+        }
+        healthInicial.healthInicial = currentHealth;
+        healthBar.SetHealth(currentHealth);
+    }
     void Attack()
     {
         animator.SetTrigger("Attacking");

@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49522c285465cd149a2a6bcf3fe10f30, type: 3}
   m_Name: Indicador Knight 2
   m_EditorClassIdentifier: 
-  indicador: 0
+  indicador: 2
