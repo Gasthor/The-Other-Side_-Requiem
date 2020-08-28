@@ -14,7 +14,7 @@ public class credits : MonoBehaviour
 
         videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
 
-        videoPlayer.url = "Assets/Scenes/Creditos/creditos.mp4";
+        videoPlayer.url = "Assets/Scenes/Creditos/creditosFinalxd.mp4";
 
         videoPlayer.isLooping = true;
 
