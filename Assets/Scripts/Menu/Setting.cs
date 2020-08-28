@@ -13,7 +13,11 @@ public class Setting : MonoBehaviour
 
     private void Start()
     {
-        fondo = music.Instance.gameObject.GetComponent<AudioSource>();
+        if (music.Instance)
+        {
+            fondo = music.Instance.gameObject.GetComponent<AudioSource>();
+        }
+        
         P1 = FindObjectOfType<Player>();
         P2 = FindObjectOfType<Player2Movement>();
     }
@@ -34,7 +38,11 @@ public class Setting : MonoBehaviour
 
     public void Pause()
     {
-        fondo.Pause();
+        if (music.Instance)
+        {
+            fondo.Pause();
+        }
+        
         P1.canMove = false;
         P2.canMove = false;
         pauseMenu.SetActive(true);
@@ -43,7 +51,11 @@ public class Setting : MonoBehaviour
     }
     public void Resume()
     {
-        fondo.Play();
+        if (music.Instance)
+        {
+            fondo.Play();
+        }
+        
         P1.canMove = true;
         P2.canMove = true;
         pauseMenu.SetActive(false);

@@ -80,4 +80,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Creditos/Creditos.unity
     guid: 6b963c173fbaec64398836375028d793
+  - enabled: 1
+    path: Assets/Scenes/Nivel 4/LI3.unity
+    guid: d7d6586d3561aec49ac8524dabb2f922
+  - enabled: 1
+    path: Assets/Scenes/Nivel 4/LI4.unity
+    guid: 9078b317daa5c2b42bd7ecc3c9865af9
   m_configObjects: {}
