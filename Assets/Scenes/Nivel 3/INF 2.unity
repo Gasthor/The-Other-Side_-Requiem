@@ -7147,7 +7147,7 @@ Transform:
   - {fileID: 856884491}
   - {fileID: 946545470}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1168518102
 GameObject:
@@ -7229,6 +7229,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuego3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1257090205
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6821328759091857598, guid: 0e8381ce0742be943a5a65e64fa0c745,
         type: 3}
@@ -7475,6 +7485,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 186625892a0ad6f45b02959af21e166b,
         type: 2}
+    - target: {fileID: 5197903090324319658, guid: f92286d854dee754b98063edc8b4f0fc,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1257090205
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197903090324319658, guid: f92286d854dee754b98063edc8b4f0fc,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7014019163550256015, guid: f92286d854dee754b98063edc8b4f0fc,
         type: 3}
       propertyPath: m_Name
@@ -7591,7 +7611,7 @@ RectTransform:
   m_Children:
   - {fileID: 1387577737}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7821,6 +7841,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuego1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1257090205
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6821328759091857598, guid: 0e8381ce0742be943a5a65e64fa0c745,
         type: 3}
@@ -8148,6 +8178,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuego2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1257090205
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6821328759091857598, guid: 0e8381ce0742be943a5a65e64fa0c745,
         type: 3}

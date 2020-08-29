@@ -628,6 +628,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6144802144759764786, guid: f631ee19d0edcaa4b91f74d74ed5cc30,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6983493819622952892, guid: f631ee19d0edcaa4b91f74d74ed5cc30,
         type: 3}
       propertyPath: player
@@ -9578,6 +9583,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144802144759764786, guid: f631ee19d0edcaa4b91f74d74ed5cc30,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6983493819622952892, guid: f631ee19d0edcaa4b91f74d74ed5cc30,
         type: 3}
