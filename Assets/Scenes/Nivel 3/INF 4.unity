@@ -155,7 +155,7 @@ Transform:
   - {fileID: 1185136459}
   - {fileID: 1735562050}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &60391591
 PrefabInstance:
@@ -169,6 +169,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniDemonio6
       objectReference: {fileID: 0}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: corazon
+      value: 
+      objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 394335118}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 531683724}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: homePos
+      value: 
+      objectReference: {fileID: 1735562050}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 5347911859420057613, guid: 7a213e529d416ee49a381280b281bd79,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: indicador
+      value: 
+      objectReference: {fileID: 11400000, guid: 40420d69bb02bfa4baf62c0a5fec4449,
+        type: 2}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: current
+      value: 
+      objectReference: {fileID: 11400000, guid: e6beba6af31eba64782b12bf7130db2c,
+        type: 2}
     - target: {fileID: 5633574220755655803, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -250,7 +289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246894970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.56678, y: 3.647065, z: 0}
+  m_LocalPosition: {x: -11.74948, y: 4.087718, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 18360434}
@@ -268,6 +307,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniDemonio5
       objectReference: {fileID: 0}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: corazon
+      value: 
+      objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 394335118}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 531683724}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: homePos
+      value: 
+      objectReference: {fileID: 1185136459}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 5347911859420057613, guid: 9119fe2f369f3b244b8d2e10776be5d2,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: indicador
+      value: 
+      objectReference: {fileID: 11400000, guid: 0fde698a37b7e094894ee5a748bc3fab,
+        type: 2}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: current
+      value: 
+      objectReference: {fileID: 11400000, guid: d07e6727f326c1144aa344da77d8b1dd,
+        type: 2}
     - target: {fileID: 5633574220755655803, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -453,7 +531,7 @@ PrefabInstance:
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3989530561471181901, guid: d0877947c6c5664409bfeb93e5f66697,
         type: 3}
@@ -577,7 +655,7 @@ PrefabInstance:
     - target: {fileID: 5804673754054653923, guid: 51a9372bae39b4c429ace7fde2bc7f10,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5804673754054653923, guid: 51a9372bae39b4c429ace7fde2bc7f10,
         type: 3}
@@ -626,6 +704,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniDemonio3
       objectReference: {fileID: 0}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: corazon
+      value: 
+      objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 394335118}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 531683724}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: homePos
+      value: 
+      objectReference: {fileID: 1750346815}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 5347911859420057613, guid: 1b5caf0ccc2cd7d4ea92b0a9908e9111,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: indicador
+      value: 
+      objectReference: {fileID: 11400000, guid: 9e3d3ad1c57abc84c9bdfc0b0c5c3878,
+        type: 2}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: current
+      value: 
+      objectReference: {fileID: 11400000, guid: c42a510d0186d5b4a82013e212e58310,
+        type: 2}
     - target: {fileID: 5633574220755655803, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -695,6 +812,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniDemonio4
       objectReference: {fileID: 0}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: corazon
+      value: 
+      objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 394335118}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 531683724}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: homePos
+      value: 
+      objectReference: {fileID: 2005449833}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 5347911859420057613, guid: 013c6d92773f6b047bf80c73e85530b9,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: current
+      value: 
+      objectReference: {fileID: 11400000, guid: ed86e997097ab8a4e88246057a4e26cb,
+        type: 2}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: indicador
+      value: 
+      objectReference: {fileID: 11400000, guid: db1d4384f65b45347ab32b23feb91283,
+        type: 2}
     - target: {fileID: 5633574220755655803, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2626,6 +2782,35 @@ PrefabInstance:
       propertyPath: player2
       value: 
       objectReference: {fileID: 531683724}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: homePos
+      value: 
+      objectReference: {fileID: 246894971}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 5347911859420057613, guid: 668c1ccadca55ff409bd9d6c01757b00,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: indicador
+      value: 
+      objectReference: {fileID: 11400000, guid: 555869d7f2966554199bf4aa76a7b568,
+        type: 2}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: current
+      value: 
+      objectReference: {fileID: 11400000, guid: 77c477ebe69ba854a9bcd19e0835e966,
+        type: 2}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: corazon
+      value: 
+      objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
+        type: 3}
     - target: {fileID: 5633574220755655803, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2847,6 +3032,45 @@ PrefabInstance:
       propertyPath: m_Name
       value: MiniDemonio2
       objectReference: {fileID: 0}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: corazon
+      value: 
+      objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 394335118}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: player2
+      value: 
+      objectReference: {fileID: 531683724}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: homePos
+      value: 
+      objectReference: {fileID: 1081937180}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: Objeto
+      value: 
+      objectReference: {fileID: 5347911859420057613, guid: a957dab997b57f6488a1fb248252b46c,
+        type: 3}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: current
+      value: 
+      objectReference: {fileID: 11400000, guid: a55b3b90f3983674f97aa62ed9f46fd0,
+        type: 2}
+    - target: {fileID: 4292571413450689522, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
+        type: 3}
+      propertyPath: indicador
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e112663e2b0ba441aea07c6bfb6a921,
+        type: 2}
     - target: {fileID: 5633574220755655803, guid: 85aebf7a62920ad408bf7549c3e0f2ae,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2928,7 +3152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081937179}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.56477, y: -1.371124, z: 0}
+  m_LocalPosition: {x: -11.74948, y: -1.231372, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 18360434}
@@ -2958,7 +3182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185136458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.59047, y: -1.323675, z: 0}
+  m_LocalPosition: {x: 10.47139, y: -1.380506, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 18360434}
@@ -3007,7 +3231,7 @@ Transform:
   - {fileID: 1483076538}
   - {fileID: 689029892}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1448317796
 GameObject:
@@ -8174,7 +8398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1735562050}
   m_Layer: 0
-  m_Name: Demon5
+  m_Name: Demon6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8188,7 +8412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735562049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.49558, y: -6.352486, z: 0}
+  m_LocalPosition: {x: 10.62053, y: -6.05335, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 18360434}
@@ -8218,7 +8442,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750346814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.70709, y: -6.399934, z: 0}
+  m_LocalPosition: {x: -11.55063, y: -6.451039, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 18360434}
@@ -8269,7 +8493,7 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -8447,7 +8671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005449832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.4007, y: 3.80002, z: 0}
+  m_LocalPosition: {x: 10.57081, y: 3.789451, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 18360434}
@@ -8503,7 +8727,7 @@ PrefabInstance:
     - target: {fileID: 7903702869562349403, guid: b2916c48d099e81499df03649dd6ab1c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7903702869562349403, guid: b2916c48d099e81499df03649dd6ab1c,
         type: 3}

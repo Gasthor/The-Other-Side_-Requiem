@@ -172,6 +172,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuego3
       objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6821328759091857598, guid: 0e8381ce0742be943a5a65e64fa0c745,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5829,6 +5834,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuego2
       objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6821328759091857598, guid: 0e8381ce0742be943a5a65e64fa0c745,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5948,6 +5958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fuego1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6821328759091857597, guid: 0e8381ce0742be943a5a65e64fa0c745,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6821328759091857598, guid: 0e8381ce0742be943a5a65e64fa0c745,
         type: 3}
