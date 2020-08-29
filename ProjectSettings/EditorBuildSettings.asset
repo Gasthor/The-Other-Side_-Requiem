@@ -93,12 +93,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel 3/INF 5.unity
     guid: 7be3281c9654adb40ae11773f8b8690c
   - enabled: 1
-    path: Assets/Scenes/Creditos/Creditos.unity
-    guid: 6b963c173fbaec64398836375028d793
+    path: Assets/Scenes/Nivel 4/LI0.unity
+    guid: 53c79c3bccf43e6439c51bd531bd4d99
+  - enabled: 1
+    path: Assets/Scenes/Nivel 4/LI1.unity
+    guid: 5d59eb03f701ff043813e78b818b2c0b
+  - enabled: 1
+    path: Assets/Scenes/Nivel 4/LI2.unity
+    guid: bbddc7708cadbbf45bcb753961812e69
   - enabled: 1
     path: Assets/Scenes/Nivel 4/LI3.unity
     guid: d7d6586d3561aec49ac8524dabb2f922
   - enabled: 1
     path: Assets/Scenes/Nivel 4/LI4.unity
     guid: 9078b317daa5c2b42bd7ecc3c9865af9
+  - enabled: 1
+    path: Assets/Scenes/Creditos/Creditos.unity
+    guid: 6b963c173fbaec64398836375028d793
   m_configObjects: {}

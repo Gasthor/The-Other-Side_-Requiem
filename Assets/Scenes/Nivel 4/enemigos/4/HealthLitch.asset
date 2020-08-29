@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7388aca60f52b8d44ad16a6415dad24a, type: 3}
   m_Name: HealthLitch
   m_EditorClassIdentifier: 
-  healthInicial: 0
+  healthInicial: 1580
