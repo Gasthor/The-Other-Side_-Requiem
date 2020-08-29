@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6560320604364726123}
   - component: {fileID: 4907773804384285001}
   m_Layer: 0
-  m_Name: Litch_p
+  m_Name: Litch_p 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,4 +136,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   damage: 7
-  indicador: {fileID: 0}
+  indicador: {fileID: 11400000, guid: 89e78a01e5b9e324ab3137cbf1598ce4, type: 2}
