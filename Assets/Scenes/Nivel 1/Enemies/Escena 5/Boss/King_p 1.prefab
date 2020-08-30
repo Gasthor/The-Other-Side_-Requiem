@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3835872305628361549}
   - component: {fileID: 278479450659381416}
   m_Layer: 0
-  m_Name: King_p
+  m_Name: King_p 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   damage: 7
-  indicador: {fileID: 0}
+  indicador: {fileID: 11400000, guid: 01224fae10015ab438c450eb6734dbc7, type: 2}
 --- !u!50 &3835872305628361549
 Rigidbody2D:
   serializedVersion: 4
