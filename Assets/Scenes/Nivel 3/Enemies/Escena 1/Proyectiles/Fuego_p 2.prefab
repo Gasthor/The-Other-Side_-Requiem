@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3371138639367040308}
   - component: {fileID: 1671959764424967970}
   m_Layer: 0
-  m_Name: Fuego_p
+  m_Name: Fuego_p 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -136,4 +136,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   damage: 7
-  indicador: {fileID: 0}
+  indicador: {fileID: 11400000, guid: 704c184aaa5c7f94497c6b7ee9ac8879, type: 2}
