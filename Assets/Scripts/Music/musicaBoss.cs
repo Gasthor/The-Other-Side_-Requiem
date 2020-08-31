@@ -13,10 +13,6 @@ public class musicaBoss : MonoBehaviour
 
     private void Start()
     {
-        
-        
-        musica = GetComponent<AudioSource>();
-        
 
         Player1 = FindObjectOfType<Player>();
         Player2 = FindObjectOfType<Player2Movement>();
