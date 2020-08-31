@@ -65,6 +65,10 @@ public class Setting : MonoBehaviour
     public void Inicio(string scene)
     {
         Resume();
+        if (music.Instance)
+        {
+            Destroy(music.Instance.gameObject);
+        }
         SceneManager.LoadScene(scene);
     }
 }
