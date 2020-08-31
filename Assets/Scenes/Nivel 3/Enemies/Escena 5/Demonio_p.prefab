@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7257273860266017117}
   m_Layer: 0
   m_Name: Demonio_p
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,8 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d090d9131e387b42aaa72a6954ba43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  damage: 7
+  speed: 8
+  damage: 20
   indicador: {fileID: 11400000, guid: 714d7e34ceeaffc47b735b64071b8fdb, type: 2}
 --- !u!50 &336012663476419333
 Rigidbody2D:

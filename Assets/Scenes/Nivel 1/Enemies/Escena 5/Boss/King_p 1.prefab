@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 278479450659381416}
   m_Layer: 0
   m_Name: King_p 1
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,8 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d090d9131e387b42aaa72a6954ba43f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  damage: 7
+  speed: 5
+  damage: 15
   indicador: {fileID: 11400000, guid: 01224fae10015ab438c450eb6734dbc7, type: 2}
 --- !u!50 &3835872305628361549
 Rigidbody2D:

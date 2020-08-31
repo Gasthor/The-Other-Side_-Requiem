@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2974616383732004278}
   m_Layer: 0
   m_Name: Red_Knight_p 1
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

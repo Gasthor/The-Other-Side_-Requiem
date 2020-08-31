@@ -6687,8 +6687,8 @@ MonoBehaviour:
   escena: LI0
   vectorP1: {fileID: 11400000, guid: 2c840518a513bda49b2de718da0ded7d, type: 2}
   vectorP2: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
-  vector1: {x: -1.07, y: -5.19}
-  vector2: {x: 1.01, y: -5.23}
+  vector1: {x: -1.89, y: 2.64}
+  vector2: {x: 1.52, y: 2.69}
 --- !u!61 &1143650255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6880,6 +6880,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cca959e8983a8c4db55c78d73b12369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &1509475410
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 576258007957347716, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_Name
+      value: Activador (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2325544223566724631, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: boss
+      value: Demonio
+      objectReference: {fileID: 0}
+    - target: {fileID: 2325544223566724631, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: escena
+      value: 
+      objectReference: {fileID: 1983019465}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951774019002756, guid: ecb2c295c3285cf448ab13a9ecd92d42,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecb2c295c3285cf448ab13a9ecd92d42, type: 3}
 --- !u!1 &1546515877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7731,6 +7810,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
         type: 3}
+    - target: {fileID: 1100329368863712490, guid: 74e1e19a4eea9794193436beb11f6cd4,
+        type: 3}
+      propertyPath: attackSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1425833926817322170, guid: 74e1e19a4eea9794193436beb11f6cd4,
         type: 3}
       propertyPath: m_Name

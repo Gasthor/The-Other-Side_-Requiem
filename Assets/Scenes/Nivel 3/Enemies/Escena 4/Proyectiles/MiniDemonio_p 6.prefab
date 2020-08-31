@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5465245498087735000}
   m_Layer: 0
   m_Name: MiniDemonio_p 6
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

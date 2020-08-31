@@ -5240,7 +5240,7 @@ GameObject:
   - component: {fileID: 966675718}
   m_Layer: 0
   m_Name: Witcher Saikus NPC
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5280,7 +5280,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016032398, y: 0.004246235}
+  m_Offset: {x: 0.5321075, y: -0.6835444}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5291,7 +5291,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0817356, y: 3.4555416}
+  m_Size: {x: 4.113886, y: 4.8311234}
   m_EdgeRadius: 0
 --- !u!61 &966675720
 BoxCollider2D:
@@ -7997,6 +7997,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
         type: 3}
+    - target: {fileID: 3134273604018921374, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: attackSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3134273604018921374, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: speed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3585119319973941820, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8767,7 +8777,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.3159548, y: 0.004246235}
+  m_Offset: {x: -0.20011938, y: -0.09764862}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8778,7 +8788,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.481891, y: 3.4555416}
+  m_Size: {x: 4.00554, y: 3.6593313}
   m_EdgeRadius: 0
 --- !u!61 &1409343663
 BoxCollider2D:
@@ -9068,7 +9078,7 @@ GameObject:
   - component: {fileID: 1589961159}
   m_Layer: 0
   m_Name: King Fabiani NPC
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9108,7 +9118,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3238799, y: 0.004246235}
+  m_Offset: {x: -0.25015467, y: -0.53070235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9119,7 +9129,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4019108, y: 3.4555416}
+  m_Size: {x: 3.335762, y: 4.5254393}
   m_EdgeRadius: 0
 --- !u!61 &1589961161
 BoxCollider2D:

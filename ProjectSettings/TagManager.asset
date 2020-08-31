@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Player2
   - Enemy
+  - Magia
+  - MagiaEnemigo
   layers:
   - Default
   - TransparentFX

@@ -53,7 +53,7 @@ public class attackEnemy : MonoBehaviour
             }
             Destroy(gameObject);
         }
-        if (!col.CompareTag("Enemy"))
+        if (!col.CompareTag("Enemy") && !col.CompareTag("Magia") && !col.CompareTag("MagiaEnemigo"))
         {
             Destroy(gameObject);
         }

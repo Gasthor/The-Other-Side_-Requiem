@@ -5996,7 +5996,7 @@ GameObject:
   - component: {fileID: 694512782}
   m_Layer: 0
   m_Name: Witcher Saikus NPC
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6036,7 +6036,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016032398, y: 0.004246235}
+  m_Offset: {x: 0.033313036, y: 0.004246235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6047,7 +6047,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0817356, y: 3.4555416}
+  m_Size: {x: 3.0471745, y: 3.4555416}
   m_EdgeRadius: 0
 --- !u!61 &694512784
 BoxCollider2D:

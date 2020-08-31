@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 853164455486238310}
   - component: {fileID: -5150639635278644648}
   m_Layer: 0
-  m_Name: proTronco1
-  m_TagString: Untagged
+  m_Name: Log_p
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

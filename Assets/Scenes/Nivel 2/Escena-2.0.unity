@@ -9284,7 +9284,7 @@ GameObject:
   - component: {fileID: 1277767677}
   m_Layer: 0
   m_Name: Agua
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

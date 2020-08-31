@@ -23,7 +23,7 @@ public class DialogueManager : MonoBehaviour
     }
     void Update()
     {
-        if (dialogueActive && Input.GetKeyDown(KeyCode.E))
+        if (dialogueActive && Input.GetKeyDown(KeyCode.Q))
         {
             //dbox.SetActive(false);
             //dialogueActive = false;

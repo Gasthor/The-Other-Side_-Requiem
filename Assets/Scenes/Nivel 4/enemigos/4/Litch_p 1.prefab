@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4907773804384285001}
   m_Layer: 0
   m_Name: Litch_p 1
-  m_TagString: Untagged
+  m_TagString: MagiaEnemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,9 +98,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.018166542}
+  m_Offset: {x: -0.014038324, y: -0.11049938}
   serializedVersion: 2
-  m_Radius: 0.45642662
+  m_Radius: 0.21713161
 --- !u!50 &6560320604364726123
 Rigidbody2D:
   serializedVersion: 4
@@ -135,5 +135,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  damage: 7
+  damage: 4
   indicador: {fileID: 11400000, guid: 89e78a01e5b9e324ab3137cbf1598ce4, type: 2}

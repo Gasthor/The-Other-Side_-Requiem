@@ -23,7 +23,7 @@ public class dialogHolder : MonoBehaviour
     {
         if(other.gameObject.name == "P1" || other.gameObject.name == "P2")
         {
-            if (Input.GetKeyUp(KeyCode.E))
+            if (Input.GetKeyUp(KeyCode.Q))
             {
                 //dMan.ShowBox(dialogue);
                 if (!dMan.dialogueActive)
