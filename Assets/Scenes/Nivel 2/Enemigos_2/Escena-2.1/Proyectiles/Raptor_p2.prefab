@@ -135,5 +135,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  damage: 7
+  damage: 5
   indicador: {fileID: 11400000, guid: a1114a11d30a43f4b878ef47ccdf6d33, type: 2}

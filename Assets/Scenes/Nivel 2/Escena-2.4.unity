@@ -9720,8 +9720,18 @@ PrefabInstance:
         type: 3}
       propertyPath: corazon
       value: 
-      objectReference: {fileID: 7413825679774759295, guid: bfcf0ca17602fb04b9d5cbbcb4295ee1,
+      objectReference: {fileID: 7413825679774759295, guid: 3353ae6ec1136674d8b2c266fb115267,
         type: 3}
+    - target: {fileID: 6045203925108279552, guid: e2986d77f1633a3429876142f54489ec,
+        type: 3}
+      propertyPath: MaxRange
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045203925108279552, guid: e2986d77f1633a3429876142f54489ec,
+        type: 3}
+      propertyPath: minRange
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6045203925108279558, guid: e2986d77f1633a3429876142f54489ec,
         type: 3}
       propertyPath: m_LocalPosition.x

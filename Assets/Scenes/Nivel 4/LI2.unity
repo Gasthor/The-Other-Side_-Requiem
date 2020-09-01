@@ -5310,7 +5310,7 @@ PrefabInstance:
         type: 3}
       propertyPath: current
       value: 
-      objectReference: {fileID: 11400000, guid: 70db42c7ee3c0944780e5814a34f424e,
+      objectReference: {fileID: 11400000, guid: 48328de8bf948c64282ca44b1a1aa31b,
         type: 2}
     - target: {fileID: 4699996725122993944, guid: 0137a8a9001c1294f8e38d466037d41d,
         type: 3}

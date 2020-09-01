@@ -95,6 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa89e40af641d134a8efbe800acbb794, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heal: 15
+  individual: 2
   almas: {fileID: 11400000, guid: 40949b9a942c03746849cdca9f2157be, type: 2}
 --- !u!61 &1649274944847713350
 BoxCollider2D:

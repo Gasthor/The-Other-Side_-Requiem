@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  damage: 7
+  damage: 15
   indicador: {fileID: 11400000, guid: 9e7de5c5c417bce47b12a6d47e774e74, type: 2}
 --- !u!50 &2236598225910947485
 Rigidbody2D:

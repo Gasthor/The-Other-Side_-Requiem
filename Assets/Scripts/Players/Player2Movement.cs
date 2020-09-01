@@ -143,7 +143,7 @@ public class Player2Movement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                currentHealth = 100;
+                currentHealth = 20;
                 healthInicial.healthInicial = currentHealth;
                 healthBar.SetHealth(currentHealth);
             }

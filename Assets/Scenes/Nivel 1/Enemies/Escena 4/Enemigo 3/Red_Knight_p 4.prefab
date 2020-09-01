@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  damage: 7
+  damage: 15
   indicador: {fileID: 11400000, guid: c0fea99692e9c984889a57fe7abfec09, type: 2}
 --- !u!58 &2974616383732004278
 CircleCollider2D:

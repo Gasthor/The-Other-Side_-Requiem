@@ -148,7 +148,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.name == "P2" && !animator.GetBool("Alive"))
         {
             if (Input.GetKeyDown(KeyCode.E)) {
-                currentHealth = 100;
+                currentHealth = 20;
                 healthInicial.healthInicial = currentHealth;
                 healthBar.SetHealth(currentHealth);
             } 

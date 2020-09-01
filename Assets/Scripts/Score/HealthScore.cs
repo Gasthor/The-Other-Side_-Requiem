@@ -5,7 +5,8 @@ using UnityEngine.SocialPlatforms;
 
 public class HealthScore : MonoBehaviour
 {
-    private int heal = 20;
+    public int heal;
+    public int individual;
     public ContadorAlmas almas;
     private GameObject p1;
     private GameObject p2;
@@ -21,7 +22,7 @@ public class HealthScore : MonoBehaviour
         {
             p1.SendMessage("Health", heal);
             p2.SendMessage("Health", heal);
-            almas.contador = almas.contador+1;
+            almas.contador = almas.contador+individual;
             Destroy(gameObject);
         }
     }

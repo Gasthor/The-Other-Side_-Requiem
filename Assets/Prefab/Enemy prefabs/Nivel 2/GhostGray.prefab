@@ -122,11 +122,12 @@ MonoBehaviour:
   player2: {fileID: 0}
   homePos: {fileID: 0}
   Objeto: {fileID: 0}
+  corazon: {fileID: 0}
   indicador: {fileID: 0}
   attackSpeed: 0.75
   speed: 1.25
-  MaxRange: 7
-  minRange: 4
+  MaxRange: 8
+  minRange: 5
   health: 150
   current: {fileID: 0}
 --- !u!50 &5119894157673904136
