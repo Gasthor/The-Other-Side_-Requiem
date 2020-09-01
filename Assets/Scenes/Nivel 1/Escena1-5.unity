@@ -5259,14 +5259,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - '-"Aqui se encuentra el salon real, aqui es donde se encuentra el Rey y su hija"
+  - '-"Efectivamente, las catacumbas del reino"
 
-    -"Pero
-    siento una energia muy oscura ahi dentro, algo demoniaco"'
-  - '-"Nose que es lo que encontraran ahi, la oscuridad misma invade a esa sala"
+    -"Nunca habia visto esta magia
+    antes, pero si se dirije a la Catacumbas, es porque necesita contacto"'
+  - '-"Veo que ha obtenido un poder inigualable, un poder que solo te lo puede dar
+    un ser oscuro"
 
-    -"Hagan
-    lo que crean necesario"'
+    -"Pero este demonio no otorga este poder tan facilmente,
+    quiere lograr algo, un objetivo"
+
+    -"hmmmm...... vayanse, a las Catacumbas
+    ahora!"'
 --- !u!61 &966675719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8761,9 +8765,8 @@ MonoBehaviour:
     presencia\"\n-\"Veo que vienen por alguna clase de motivo personal, \xBFQue creen,
     que con esos pobres y simples hechizos podran derrotarme y asi ser lo heroes
     de esta historia\""
-  - "-\"Pues no lograran nada, veran su poder es tan basico que ni me esmerare en
-    atacarlos, pero miren que tenemos aqui!\"\n-\"Es magnifica, \xBFno lo creen?,(Mirando
-    a la bestia) bueno dejare que jueguen con ella\""
+  - -"Pues no lograran nada, veran su poder es tan basico que ni me esmerare en atacarlos,
+    dejare que ella lo haga"
 --- !u!61 &1409343662
 BoxCollider2D:
   m_ObjectHideFlags: 0
