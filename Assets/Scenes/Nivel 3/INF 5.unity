@@ -8001,9 +8001,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - "-\"\xBFComo han llegado aqui? No lo entiendo \"\n-\"Nose ni lo que hago aqui,
-    no recuerdo nada\""
-  - "-\"y DONDE ESTAMOS??!!!, \xA1\xA1\xA1VAMONOS DE AQUI!!!\""
+  - "- \xBFComo han llegado aqu\xED? No lo entiendo.\r\n-No s\xE9 ni lo que hago
+    aqu\xED, no recuerdo nada.\r\n"
+  - "-\xA1\xA1\xBF\xBFDONDE ESTAMOS??!!!, \xA1\xA1\xA1VAMONOS DE AQUI!!!"
 --- !u!61 &1983019467
 BoxCollider2D:
   m_ObjectHideFlags: 0

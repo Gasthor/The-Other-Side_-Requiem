@@ -3257,8 +3257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - "*Veo que han sido perseverantes\n*Aun asi, No estan preparados para esto, haganse
-    mas fuertes\" \n"
+  - "-Veo que han sido perseverantes.\r\n-Aun as\xED, tengan cuidado adelante, no
+    ser\xE1 tan f\xE1cil como antes.\r\n"
 --- !u!61 &609400122
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -1942,16 +1942,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - "-*(Mientras observa el infinito se da vuelta y ve al par de hermanos)\t-\"Eh?
-    que hacen aqui? como llegaron aqui?,(suspira) uff para que me esmero si ni me
-    entienden, estos cerebros basicos de la tierra"
-  - '-"Que? pueden entenderme, pero como... ah ya veo son magos, seres dedicados
-    a la sabiduria"
-
-    -"Bueno, si es conocimiento lo que buscan, les presento
-    La nada, el todo , el bien y el mal unidos en el un mismo univeso"'
-  - -"Ustedes deben conocerlo como "Limbo", Mi nombre es Gasper y estare por aqui
-    rondando si no les molesta"*(No hace nada en espacial, solo ve el infinito"
+  - "(Mientras observa el infinito se da vuelta y ve al par de hermanos)\t\r\n- \xBFEh?
+    \xBFqu\xE9 hacen aqu\xED? como llegaron aqu\xED?,(suspira) hum para que me esmero
+    si ni me entienden, estos cerebros b\xE1sicos de la tierra.\r\n"
+  - "- \xBFQue? pueden entenderme, pero como... ah ya veo son magos, seres dedicados
+    a la sabidur\xEDa.\r\n-Bueno, si es conocimiento lo que buscan, les presento
+    La nada, el todo, el bien y el mal unidos en el un mismo universo.\r\n"
+  - "-Ustedes deben conocerlo como \"Limbo\", Mi nombre es Gasper y estar\xE9 por
+    aqu\xED rondando si no les molesta.\r\n(No hace nada en especial, solo ve el
+    infinito)\r\n"
 --- !u!61 &1885776439
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2063,7 +2062,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885776437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.376, y: -5.826, z: 0}
+  m_LocalPosition: {x: 2.88, y: -4.2, z: 0}
   m_LocalScale: {x: 0.672765, y: 0.6711854, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -7235,8 +7235,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - "-\"Gracias hermanos por salvarme, entremos para saludar a mam\xE1, solo quiero
-    abrazarla\""
+  - "-Gracias hermanos por salvarme, entremos para saludar a mam\xE1, solo quiero
+    abrazarla."
 --- !u!61 &1833385347
 BoxCollider2D:
   m_ObjectHideFlags: 0

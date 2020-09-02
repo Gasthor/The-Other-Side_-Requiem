@@ -3480,9 +3480,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: 
   dialogueLines:
-  - '*(Se ve muy feliz)
+  - '(Se ve muy feliz)
 
-    *Guau Guau.'
+    -Guau Guau.'
 --- !u!61 &1235063449
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6302,15 +6302,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - "*(llora desconsoladamente)\n*Han pasado d\xEDas y mi hijo no vuelve (continua
-    llorando)\n*Sin su padre, el lo era todo para mi (sigue llorando), ahora ustedes
-    son lo unico que me queda"
-  - "*Mis preciados hijos Marxioni y Sasu, ahora son lo \xFAnico que me queda \n*(se
-    seca las lagrimas)\n*Pero no me sirve de nada llorar, solo queda esperar lo mejor."
-  - "*Antes de que se vayan a cazar nuestro alimento, solo quiero que sepan que los
-    quiero.\n*No olviden darle una muerte rapida a sus presas, ya que al igual que
-    ustedes son creaciones de dios \n*Nose preocupen de mi, yo cuidare de Cucho \xA1y
-    el cuidara de mi!."
+  - "(llora desconsoladamente)\r\n-Han pasado d\xEDas y mi hijo no vuelve. (contin\xFAa
+    llorando)\r.\n-Sin su padre, \xE9l lo era todo para mi (sigue llorando), ahora
+    ustedes son lo \xFAnico que me queda.\r\n"
+  - "-Mis preciados hijos Marxioni y Sasu, ahora son lo \xFAnico que me queda. \r\n(se
+    seca las l\xE1grimas)\r\n-Pero no me sirve de nada llorar, solo queda esperar
+    lo mejor.\r\n"
+  - "-Antes de que se vayan a cazar nuestro alimento, solo quiero que sepan que los
+    quiero.\r\n-No olviden darles una muerte r\xE1pida a sus presas, ya que al igual
+    que ustedes son creaciones de dios.\r\n-No se preocupen de m\xED, yo cuidare
+    de Cucho \xA1y el cuidara de m\xED!\n"
 --- !u!61 &1378300637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7535,7 +7536,6 @@ MonoBehaviour:
   healthInicial: {fileID: 11400000, guid: cdef836f76abfb84b8f221659e7211b5, type: 2}
   healthBar: {fileID: 1306763999}
   canMove: 0
-  rb2D: {fileID: 1879580752}
   StartingPosition: {fileID: 11400000, guid: 4fd3a3dfa5f91574bbfb729666a4707f, type: 2}
 --- !u!95 &1879580751
 Animator:

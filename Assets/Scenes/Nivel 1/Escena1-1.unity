@@ -11911,18 +11911,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - '-"Veo que han podido derrotar a la bestia, y ahora os habeis hecho mas fuertes..."
-
-    -"Este
-    castillo a experimentado la maldicion de una bruja, ya no es como era antes"'
-  - '-"Esta maldicion hace que los sirviertes, soldados y Caballeros se conviertan
-    en montruos, viles creaturas que solo quieren muerte"
-
-    -"Lo mas probable
-    es que estas estupidas criaturas se adapten a su ambiente y tengan un parecido
-    a su forma original"'
-  - -"Tengan cuidado, mi nombre es Saikus y les ayudare en lo que pueda para terminar
-    esta plaga"
+  - "-Veo que han podido derrotar a la bestia, y ahora ya se han hecho m\xE1s fuertes...\r\n-Este
+    castillo ha experimentado la maldici\xF3n de una bruja, ya no es como era antes.\r\n"
+  - "-Esta maldici\xF3n hace que los sirvientes, soldados y Caballeros se conviertan
+    en monstruos, viles creaturas que solo quieren muerte.\r\n-Lo m\xE1s probable
+    es que estas est\xFApidas criaturas se adapten a su ambiente y tengan un parecido
+    a su forma original.\r\n"
+  - -Tengan cuidado, mi nombre es Saikus y les ayudare en lo que pueda para terminar
+    esta plaga.
 --- !u!61 &1201824041
 BoxCollider2D:
   m_ObjectHideFlags: 0

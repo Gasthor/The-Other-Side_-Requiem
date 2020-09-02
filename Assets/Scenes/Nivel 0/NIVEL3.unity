@@ -318,12 +318,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - '*Hola, no me conocen y nose si lo haran ,pero adelante se encuentra el peligro
-
-    *Peligro
-    que si son perseverantes, podran superar
-
-'
+  - "-Hola, no me conocen y no s\xE9 si lo hagan, pero adelante se encuentra el peligro.\r\n-Peligro
+    que, si son perseverantes, podr\xE1n superar.\r\n"
 --- !u!61 &201189093
 BoxCollider2D:
   m_ObjectHideFlags: 0

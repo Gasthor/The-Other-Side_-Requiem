@@ -5259,18 +5259,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - '-"Efectivamente, las catacumbas del reino"
-
-    -"Nunca habia visto esta magia
-    antes, pero si se dirije a la Catacumbas, es porque necesita contacto"'
-  - '-"Veo que ha obtenido un poder inigualable, un poder que solo te lo puede dar
-    un ser oscuro"
-
-    -"Pero este demonio no otorga este poder tan facilmente,
-    quiere lograr algo, un objetivo"
-
-    -"hmmmm...... vayanse, a las Catacumbas
-    ahora!"'
+  - "-Efectivamente, las catacumbas del reino.\r\n-Nunca hab\xEDa visto esta magia
+    antes, pero si se dirige a la Catacumbas, es porque necesita contacto.\r\n"
+  - "-Veo que ha obtenido un poder inigualable, un poder que solo te lo puede dar
+    un ser oscuro.\r\n-Pero este demonio no otorga este poder tan f\xE1cilmente,
+    quiere lograr algo, un objetivo.\r\n-hm...... v\xE1yanse, \xA1a las Catacumbas
+    ahora!\r\n"
 --- !u!61 &966675719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8940,14 +8934,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - "(Saliendo del conjuro) \xBFquee, que ha pasado? \xBFEsto era un sue\xF1o, no
-    entiendo nada de esto?\n-\"Nooo que han hecho a mi pobre hija, Karina despierta!\n-\"Donde
-    esta ella, esa arpia\"\xA1DONDE ESTAS KEIRAA!"
-  - "-\"Mi pobre hija, mi dulce y preciosa Karina!\" \n-\"Ustedes 2 son hermanos
-    de Lancelot, lo recuerdo vagamente, oh, !El intento salvar a mi hija!\""
-  - "-\"Solo se que se lo han llevado, este hechizo no me dejaba actuar, pensaba
-    que estaba so\xF1ando!\n-\"Ella menciono una cueva, un reino subterraneo donde
-    .........\xBFfinalizara el conjuro?\""
+  - "(Saliendo del conjuro) \r\n- \xBFqu\xE9, que ha pasado? \xBFEsto era un sue\xF1o,
+    no entiendo nada de esto?\r\n-No, \xA1que han hecho a mi pobre hija, Karina despierta!\r\n-Donde
+    esta ella, esa arp\xEDa \xA1DONDE ESTAS KEIRAA!\r\n"
+  - "- \xA1Mi pobre hija, mi dulce y preciosa Karina!\r\n-Ustedes 2 son hermanos
+    de Lancelot, lo recuerdo vagamente, \xA1oh! \xA1El intento salvar a mi hija!\r\n"
+  - "-Solo s\xE9 que se lo han llevado, este hechizo no me dejaba actuar, \xA1pensaba
+    que estaba so\xF1ando!\r\n-Ella menciono una cueva, un reino subterr\xE1neo donde
+    ......... \xBFTerminara el conjuro?\r\n"
 --- !u!61 &1589961160
 BoxCollider2D:
   m_ObjectHideFlags: 0
