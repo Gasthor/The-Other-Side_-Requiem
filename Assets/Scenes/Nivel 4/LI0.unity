@@ -503,7 +503,7 @@ PrefabInstance:
     - target: {fileID: 5649796730252887032, guid: c1c39f432e43cfd45a91b11a0942177b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -5.3610535
+      value: -5.361084
       objectReference: {fileID: 0}
     - target: {fileID: 5649796730252887032, guid: c1c39f432e43cfd45a91b11a0942177b,
         type: 3}
@@ -3220,6 +3220,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 636772469917639112, guid: 6f218de3aaceac94486bc5b818a966ba,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3365,6 +3370,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8473249515048863137, guid: 6f218de3aaceac94486bc5b818a966ba,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8500895501772614872, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_RenderMode
@@ -3375,6 +3385,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 2057018495}
+    - target: {fileID: 8500895501772614872, guid: 6f218de3aaceac94486bc5b818a966ba,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f218de3aaceac94486bc5b818a966ba, type: 3}
 --- !u!1 &2018564274

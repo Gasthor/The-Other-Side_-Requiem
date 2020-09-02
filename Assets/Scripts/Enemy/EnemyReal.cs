@@ -152,9 +152,9 @@ public class EnemyReal : MonoBehaviour
         GUI.Box(
             new Rect(
                 pos.x - 20,
-                Screen.height - pos.y - 50,
-                35,
-                20), "" + health
+                Screen.height - pos.y - 110,
+                45,
+                30), "" + health
             );
     }
 }
