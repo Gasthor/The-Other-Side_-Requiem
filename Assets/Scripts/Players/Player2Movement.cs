@@ -16,13 +16,14 @@ public class Player2Movement : MonoBehaviour
     public HealthBar healthBar;
     //
     public bool canMove;
-    public Rigidbody2D rb2D;
+    private Rigidbody2D rb2D;
     Vector2 movement;
     private Animator animator;
     public VectorValue StartingPosition;
     //
     void Start()
     {
+        rb2D = GetComponent<Rigidbody2D>();
         canMove = true;
         animator = GetComponent<Animator>();
         transform.position = StartingPosition.inicial;
@@ -94,9 +95,18 @@ public class Player2Movement : MonoBehaviour
     }
     void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        healthInicial.healthInicial = currentHealth;
-        healthBar.SetHealth(currentHealth);
+        if (currentHealth > 0)
+        {
+            currentHealth -= damage;
+            healthInicial.healthInicial = currentHealth;
+            healthBar.SetHealth(currentHealth);
+        }
+        else
+        {
+            currentHealth = 0;
+            healthInicial.healthInicial = currentHealth;
+            healthBar.SetHealth(currentHealth);
+        }
     }
     void Health(int health)
     {
@@ -143,7 +153,7 @@ public class Player2Movement : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                currentHealth = 20;
+                currentHealth = 35;
                 healthInicial.healthInicial = currentHealth;
                 healthBar.SetHealth(currentHealth);
             }

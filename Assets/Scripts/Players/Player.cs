@@ -21,9 +21,10 @@ public class Player : MonoBehaviour
     private Animator animator;
     public VectorValue StartingPosition;
     public bool canMove; //NUEVO
-    public Rigidbody2D rb2D;
+    private Rigidbody2D rb2D;
     void Start()
     {
+        rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         transform.position = StartingPosition.inicial;
         //
@@ -71,10 +72,6 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("Alive", false);
         }
-        //if (Input.GetKeyDown(KeyCode.G))
-        //{
-        //    TakeDamage(20);
-        //}
     }
 
 
@@ -100,9 +97,19 @@ public class Player : MonoBehaviour
     }
     void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        healthInicial.healthInicial = currentHealth;
-        healthBar.SetHealth(currentHealth);
+        if (currentHealth > 0)
+        {
+            currentHealth -= damage;
+            healthInicial.healthInicial = currentHealth;
+            healthBar.SetHealth(currentHealth);
+        }
+        else
+        {
+            currentHealth = 0;
+            healthInicial.healthInicial = currentHealth;
+            healthBar.SetHealth(currentHealth);
+        }
+        
     }
     void Health(int health)
     {
@@ -148,7 +155,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.name == "P2" && !animator.GetBool("Alive"))
         {
             if (Input.GetKeyDown(KeyCode.E)) {
-                currentHealth = 20;
+                currentHealth = 35;
                 healthInicial.healthInicial = currentHealth;
                 healthBar.SetHealth(currentHealth);
             } 
