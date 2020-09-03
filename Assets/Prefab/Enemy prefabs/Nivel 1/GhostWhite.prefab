@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 966691386403019562}
   - component: {fileID: 9083277432618236598}
   - component: {fileID: 4699996725122993944}
+  - component: {fileID: -1414940123033767370}
+  - component: {fileID: 6626543639271144075}
   m_Layer: 0
   m_Name: GhostWhite
   m_TagString: Enemy
@@ -205,6 +207,7 @@ MonoBehaviour:
   player2: {fileID: 0}
   homePos: {fileID: 0}
   Objeto: {fileID: 0}
+  corazon: {fileID: 0}
   indicador: {fileID: 0}
   attackSpeed: 1
   speed: 1.25
@@ -212,3 +215,29 @@ MonoBehaviour:
   minRange: 3
   health: 100
   current: {fileID: 0}
+--- !u!114 &-1414940123033767370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7319549073851659226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
+--- !u!114 &6626543639271144075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7319549073851659226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2

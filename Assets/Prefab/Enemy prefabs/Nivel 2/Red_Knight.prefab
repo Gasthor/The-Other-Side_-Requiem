@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 2644041980105013837}
   - component: {fileID: 5989598748723007080}
   - component: {fileID: 5542299716592852152}
+  - component: {fileID: 5570965977143764504}
+  - component: {fileID: 7742605733657911947}
   m_Layer: 0
   m_Name: Red_Knight
   m_TagString: Enemy
@@ -213,3 +215,29 @@ CompositeCollider2D:
       - {x: -0.6280046, y: -1.1388888}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
+--- !u!114 &5570965977143764504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014019163550256015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
+--- !u!114 &7742605733657911947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7014019163550256015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2

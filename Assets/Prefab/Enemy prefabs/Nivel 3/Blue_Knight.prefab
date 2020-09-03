@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 2410471387507558009}
   - component: {fileID: 3726216196495753134}
   - component: {fileID: 5807216630683449060}
+  - component: {fileID: -6494451682216248677}
+  - component: {fileID: 2268295341816996329}
   m_Layer: 0
   m_Name: Blue_Knight
   m_TagString: Enemy
@@ -213,3 +215,29 @@ CompositeCollider2D:
       - {x: -0.9443858, y: -1.1944444}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
+--- !u!114 &-6494451682216248677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137711136264632642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
+--- !u!114 &2268295341816996329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137711136264632642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2

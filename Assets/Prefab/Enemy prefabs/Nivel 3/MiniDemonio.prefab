@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 7462483594597258528}
   - component: {fileID: 2529710482347984483}
   - component: {fileID: 4292571413450689522}
+  - component: {fileID: 7854721316053813395}
+  - component: {fileID: 7977824294252836096}
   m_Layer: 0
   m_Name: MiniDemonio
   m_TagString: Enemy
@@ -213,3 +215,29 @@ MonoBehaviour:
   minRange: 8
   health: 250
   current: {fileID: 0}
+--- !u!114 &7854721316053813395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15039272683985548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
+--- !u!114 &7977824294252836096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15039272683985548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2

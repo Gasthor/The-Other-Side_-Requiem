@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 5119894157673904136}
   - component: {fileID: 6090821551767324778}
   - component: {fileID: 7809467696089315458}
+  - component: {fileID: 9053601271172286216}
+  - component: {fileID: 6170864336343395210}
   m_Layer: 0
   m_Name: GhostGray
   m_TagString: Enemy
@@ -213,3 +215,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.265625, y: 1.359375}
   m_EdgeRadius: 0
+--- !u!114 &9053601271172286216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148722309141062272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
+--- !u!114 &6170864336343395210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148722309141062272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2

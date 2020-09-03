@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 3237223777510865272}
   - component: {fileID: 4773304921248483358}
   - component: {fileID: 6983493819622952892}
+  - component: {fileID: -2522625369212103626}
+  - component: {fileID: -4702361500910864606}
   m_Layer: 0
   m_Name: CabezaFuego
   m_TagString: Enemy
@@ -204,6 +206,7 @@ MonoBehaviour:
   player2: {fileID: 0}
   homePos: {fileID: 0}
   Objeto: {fileID: 0}
+  corazon: {fileID: 0}
   indicador: {fileID: 0}
   attackSpeed: 1
   speed: 1
@@ -211,3 +214,29 @@ MonoBehaviour:
   minRange: 6
   health: 100
   current: {fileID: 0}
+--- !u!114 &-2522625369212103626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158609948502173065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
+--- !u!114 &-4702361500910864606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158609948502173065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2

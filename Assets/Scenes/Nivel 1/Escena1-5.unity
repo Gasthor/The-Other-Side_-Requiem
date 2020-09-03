@@ -488,7 +488,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1000
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -5238,6 +5238,8 @@ GameObject:
   - component: {fileID: 966675720}
   - component: {fileID: 966675719}
   - component: {fileID: 966675718}
+  - component: {fileID: 966675724}
+  - component: {fileID: 966675723}
   m_Layer: 0
   m_Name: Witcher Saikus NPC
   m_TagString: MagiaEnemigo
@@ -5382,6 +5384,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &966675723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966675717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2
+--- !u!114 &966675724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966675717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
 --- !u!1 &982312077
 GameObject:
   m_ObjectHideFlags: 0
@@ -6364,7 +6392,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: -997
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -7941,6 +7969,31 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 253827934637924748, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064846440252768639, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.13076591
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064846440252768639, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.155135
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064846440252768639, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.021794558
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064846440252768639, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.8346398
+      objectReference: {fileID: 0}
     - target: {fileID: 3134273604018921374, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
       propertyPath: indicador
@@ -7977,7 +8030,7 @@ PrefabInstance:
     - target: {fileID: 3134273604018921374, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
       propertyPath: MaxRange
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3134273604018921374, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
@@ -7987,7 +8040,7 @@ PrefabInstance:
     - target: {fileID: 3134273604018921374, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
       propertyPath: minRange
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3134273604018921374, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
@@ -8008,12 +8061,12 @@ PrefabInstance:
     - target: {fileID: 3585119319973941820, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.87
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 3585119319973941820, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.85
+      value: 0.11
       objectReference: {fileID: 0}
     - target: {fileID: 3585119319973941820, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
         type: 3}
@@ -8064,6 +8117,66 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: King
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.data[0].Y
+      value: -9468015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.data[3].Y
+      value: -9468015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].y
+      value: -0.9468015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[3].y
+      value: -0.9468015
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.data[0].X
+      value: 4390851
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.data[1].X
+      value: 4390851
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
+      value: 0.4390558
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[1].x
+      value: 0.4390558
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.data[2].X
+      value: -3955253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.data[3].X
+      value: -3954960
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[2].x
+      value: -0.3955253
+      objectReference: {fileID: 0}
+    - target: {fileID: 4960744994298011223, guid: 10a5b7d8ddf23c84a99d890c0d27d02c,
+        type: 3}
+      propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[3].x
+      value: -0.39546672
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10a5b7d8ddf23c84a99d890c0d27d02c, type: 3}
@@ -8137,7 +8250,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -998
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -8544,7 +8657,7 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -8599,12 +8712,12 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 557
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 313
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -8629,27 +8742,27 @@ PrefabInstance:
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.05111821
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.05111821
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3133808791422749473, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.05111821
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6124448917171921505, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
@@ -8684,7 +8797,7 @@ PrefabInstance:
     - target: {fileID: 8500895501772614872, guid: 6f218de3aaceac94486bc5b818a966ba,
         type: 3}
       propertyPath: m_RenderMode
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f218de3aaceac94486bc5b818a966ba, type: 3}
@@ -8913,6 +9026,8 @@ GameObject:
   - component: {fileID: 1589961161}
   - component: {fileID: 1589961160}
   - component: {fileID: 1589961159}
+  - component: {fileID: 1589961165}
+  - component: {fileID: 1589961164}
   m_Layer: 0
   m_Name: King Fabiani NPC
   m_TagString: MagiaEnemigo
@@ -9059,6 +9174,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1589961164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589961158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2
+--- !u!114 &1589961165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589961158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
 --- !u!1 &1654795726
 GameObject:
   m_ObjectHideFlags: 0
@@ -9817,7 +9958,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: -998
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -11451,12 +11592,12 @@ PrefabInstance:
     - target: {fileID: 5649796730252887032, guid: c1c39f432e43cfd45a91b11a0942177b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -5.3610535
+      value: -5.361084
       objectReference: {fileID: 0}
     - target: {fileID: 5649796730252887032, guid: c1c39f432e43cfd45a91b11a0942177b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00019836426
+      value: 0.00018310547
       objectReference: {fileID: 0}
     - target: {fileID: 5649796730252887032, guid: c1c39f432e43cfd45a91b11a0942177b,
         type: 3}

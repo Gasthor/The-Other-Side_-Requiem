@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 8444737684669067026}
   - component: {fileID: 8848327463342071570}
   - component: {fileID: 8394237370818905736}
+  - component: {fileID: -2887780829002319172}
+  - component: {fileID: 5199621084720189570}
   m_Layer: 0
   m_Name: Raptor
   m_TagString: Enemy
@@ -213,3 +215,29 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.265625, y: 1.359375}
   m_EdgeRadius: 0
+--- !u!114 &-2887780829002319172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4901096844251463126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
+--- !u!114 &5199621084720189570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4901096844251463126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2
