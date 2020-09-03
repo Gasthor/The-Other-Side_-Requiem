@@ -7424,6 +7424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 7903702870021371228, guid: b2916c48d099e81499df03649dd6ab1c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7903702869562349407, guid: b2916c48d099e81499df03649dd6ab1c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b2916c48d099e81499df03649dd6ab1c, type: 3}
@@ -7985,6 +7990,8 @@ GameObject:
   - component: {fileID: 1983019468}
   - component: {fileID: 1983019467}
   - component: {fileID: 1983019466}
+  - component: {fileID: 1983019472}
+  - component: {fileID: 1983019471}
   m_Layer: 0
   m_Name: Third Brother
   m_TagString: Untagged
@@ -8126,6 +8133,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1983019471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983019465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P2
+--- !u!114 &1983019472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983019465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a44bb89e77c03104f87ee837777c28d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: P1
 --- !u!1 &2045048895
 GameObject:
   m_ObjectHideFlags: 0

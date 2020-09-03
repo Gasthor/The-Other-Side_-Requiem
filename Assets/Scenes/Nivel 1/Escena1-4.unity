@@ -6017,14 +6017,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hi
   dialogueLines:
-  - '-"Aqui se encuentra el salon real, aqui es donde se encuentra el Rey y su hija"
+  - '-Aqui se encuentra el salon real, aqui es donde se encuentra el Rey y su hija.
 
-    -"Pero
-    siento una energia muy oscura ahi dentro, algo demoniaco"'
-  - '-"Nose que es lo que encontraran ahi, la oscuridad misma invade a esa sala"
+    -Pero
+    siento una energia muy oscura ahi dentro, algo demoniaco.'
+  - '-Nose que es lo que encontraran ahi, la oscuridad misma invade a esa sala.
 
-    -"Hagan
-    lo que crean necesario"'
+    -Hagan
+    lo que crean necesario.'
 --- !u!61 &694512783
 BoxCollider2D:
   m_ObjectHideFlags: 0
